@@ -1,0 +1,6 @@
+C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|54d5ac8e-17c6-4b9a-9ade-aac598bfa997
+C:\Users\User\Documents\PSoC Creator\4.1\Downloads ( 4.1).cylib\Downloads ( 4.1).cyprj|80a79eb2-8054-42e5-9807-c241b1d59a99
+C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|bc76f488-6a29-4369-bb04-31f1a84971f6
+C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|b9cb001e-e2ff-422f-9e94-cc3e774778cf
+C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|0696d12c-46f0-415d-a3a2-03331294a6d4
+C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\BuzzerProject.cyprj|284b2c98-ccf6-44ed-a650-bb15dfc14759
