@@ -69,6 +69,7 @@
 <v>BuzzerWorkspace\BuzzerProject\Generated_Source\PSoC4\cyfittergnu.inc</v>
 <v>BuzzerWorkspace\BuzzerProject\Generated_Source\PSoC4\cyfitteriar.inc</v>
 <v>BuzzerWorkspace\BuzzerProject\Generated_Source\PSoC4\cyfitterrv.inc</v>
+<v>BuzzerWorkspace\BuzzerProject\Generated_Source\PSoC4\cymetadata.c</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -117,28 +118,6 @@
 <VisibleNodeIds>
 <v>BuzzerWorkspace</v>
 <v>BuzzerWorkspace\BuzzerProject</v>
-<v>BuzzerWorkspace\BuzzerProject\CortexM0</v>
-<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541</v>
-<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug</v>
-<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files</v>
-<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\Button.lst</v>
-<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\Button_PM.lst</v>
-<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\Cm0Start.lst</v>
-<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
-<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
-<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
-<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLFClk.lst</v>
-<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
-<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
-<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
-<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
-<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\LED.lst</v>
-<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_PM.lst</v>
-<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\main.lst</v>
-<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\BuzzerProject.elf</v>
-<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\BuzzerProject.hex</v>
-<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\BuzzerProject.map</v>
-<v>BuzzerWorkspace\BuzzerProject\BuzzerProject.gpdsc</v>
 <v>BuzzerWorkspace\BuzzerProject\BuzzerProject.rpt</v>
 <v>BuzzerWorkspace\BuzzerProject\BuzzerProject_timing.html</v>
 </VisibleNodeIds>

@@ -2,7 +2,7 @@
 --	Conversion of BuzzerProject.v to vh2:
 --
 --	Cypress Semiconductor - WARP Version 6.3 IR 41
---	Fri Dec 29 14:14:28 2017
+--	Fri Dec 29 14:32:49 2017
 --
 
 USE cypress.cypress.all;
@@ -34,7 +34,7 @@ Button:cy_psoc3_pins_v1_10
 	GENERIC MAP(id=>"8d318d8b-cf7b-4b6b-b02c-ab1c5c49d0ba",
 		drive_mode=>"110",
 		ibuf_enabled=>"1",
-		init_dr_st=>"0",
+		init_dr_st=>"1",
 		input_sync=>"1",
 		input_clk_en=>'0',
 		input_sync_mode=>"0",
@@ -104,7 +104,7 @@ LED:cy_psoc3_pins_v1_10
 	GENERIC MAP(id=>"e851a3b9-efb8-48be-bbb8-b303b216c393",
 		drive_mode=>"110",
 		ibuf_enabled=>"1",
-		init_dr_st=>"0",
+		init_dr_st=>"1",
 		input_sync=>"1",
 		input_clk_en=>'0',
 		input_sync_mode=>"0",

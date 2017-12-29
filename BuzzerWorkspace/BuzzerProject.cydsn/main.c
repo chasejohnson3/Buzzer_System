@@ -17,16 +17,18 @@ int main(void)
 
     /* Place your initialization/startup code here (e.g. MyInst_Start()) */
     
-    while (1==1)
+    for (;;)
     {
-        if (Button_Read())
+        /*if (Button_Read())
         {
             LED_Write(1);
         }
         else
         {
             LED_Write(0);
-        }
+        }*/
+        LED_Write(!Button_Read());
+        
         
         /*LED_Write(1);
         CyDelay(1000);
