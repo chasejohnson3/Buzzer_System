@@ -1,13 +1,13 @@
-Loading plugins phase: Elapsed time ==> 0s.141ms
+Loading plugins phase: Elapsed time ==> 0s.150ms
 <CYPRESSTAG name="CyDsfit arguments...">
 cydsfit arguments: -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\BuzzerProject.cyprj -d CY8C4245AXI-483 -s C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\Generated_Source\PSoC4 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE
 </CYPRESSTAG>
 <CYPRESSTAG name="Design elaboration results...">
 </CYPRESSTAG>
-Elaboration phase: Elapsed time ==> 0s.648ms
+Elaboration phase: Elapsed time ==> 0s.764ms
 <CYPRESSTAG name="HDL generation results...">
 </CYPRESSTAG>
-HDL generation phase: Elapsed time ==> 0s.022ms
+HDL generation phase: Elapsed time ==> 0s.029ms
 <CYPRESSTAG name="Synthesis results...">
 
      | | | | | | |
@@ -41,7 +41,7 @@ Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\User\
 ======================================================================
 
 vlogfe V6.3 IR 41:  Verilog parser
-Fri Dec 29 14:32:49 2017
+Tue Jan 02 15:34:06 2018
 
 
 ======================================================================
@@ -51,7 +51,7 @@ Options  :    -yv2 -q10 BuzzerProject.v
 ======================================================================
 
 vpp V6.3 IR 41:  Verilog Pre-Processor
-Fri Dec 29 14:32:49 2017
+Tue Jan 02 15:34:06 2018
 
 
 vpp:  No errors.
@@ -80,7 +80,7 @@ Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\User\
 ======================================================================
 
 tovif V6.3 IR 41:  High-level synthesis
-Fri Dec 29 14:32:49 2017
+Tue Jan 02 15:34:06 2018
 
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\std.vhd'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\cypress.vhd'.
@@ -104,7 +104,7 @@ Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\User\
 ======================================================================
 
 topld V6.3 IR 41:  Synthesis and optimization
-Fri Dec 29 14:32:49 2017
+Tue Jan 02 15:34:06 2018
 
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\std.vhd'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\cypress.vhd'.
@@ -128,10 +128,10 @@ Detecting unused logic.
 ------------------------------------------------------
 Alias Detection
 ------------------------------------------------------
-Aliasing one to tmpOE__Button_net_0
-Aliasing tmpOE__LED_net_0 to tmpOE__Button_net_0
-Removing Lhs of wire one[6] = tmpOE__Button_net_0[1]
-Removing Lhs of wire tmpOE__LED_net_0[9] = tmpOE__Button_net_0[1]
+Aliasing one to tmpOE__LED_net_0
+Aliasing tmpOE__Button_net_0 to tmpOE__LED_net_0
+Removing Lhs of wire one[7] = tmpOE__LED_net_0[1]
+Removing Lhs of wire tmpOE__Button_net_0[10] = tmpOE__LED_net_0[1]
 
 ------------------------------------------------------
 Aliased 0 equations, 2 wires.
@@ -158,14 +158,14 @@ CYPRESS_DIR    : C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\wa
 Warp Program   : C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\bin\warp.exe
 Warp Arguments : -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya "-.fftprj=C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\BuzzerProject.cyprj" -dcpsoc3 BuzzerProject.v -verilog
 </CYPRESSTAG>
-Warp synthesis phase: Elapsed time ==> 0s.405ms
+Warp synthesis phase: Elapsed time ==> 0s.396ms
 <CYPRESSTAG name="Fitter results...">
 <CYPRESSTAG name="Fitter startup details...">
-cyp3fit: V4.1.0.2686, Family: PSoC3, Started at: Friday, 29 December 2017 14:32:49
+cyp3fit: V4.1.0.2686, Family: PSoC3, Started at: Tuesday, 02 January 2018 15:34:06
 Options: -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\BuzzerProject.cyprj -d CY8C4245AXI-483 BuzzerProject.v -verilog
 </CYPRESSTAG>
 <CYPRESSTAG name="Design parsing">
-Design parsing phase: Elapsed time ==> 0s.010ms
+Design parsing phase: Elapsed time ==> 0s.006ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Tech Mapping">
 <CYPRESSTAG name="Initial Mapping" icon="FILE_RPT_TECHM">
@@ -188,45 +188,6 @@ Design Equations
     ------------------------------------------------------------
     Pin listing
     ------------------------------------------------------------
-
-    Pin : Name = Button(0)
-        Attributes:
-            In Group/Port: True
-            In Sync Option: AUTO
-            Out Sync Option: NOSYNC
-            Interrupt generated: False
-            Interrupt mode: NONE
-            Drive mode: CMOS_OUT
-            VTrip: EITHER
-            Slew: FAST
-            Input Sync needed: False
-            Output Sync needed: False
-            SC shield enabled: False
-            POR State: ANY
-            LCD Mode: COMMON
-            Register Mode: RegComb
-            CaSense Mode: NEITHER
-            Treat as pin: True
-            Is OE Registered: False
-            Uses Analog: False
-            Can contain Digital: True
-            Is SIO: False
-            SIO Output Buf: NONREGULATED
-            SIO Input Buf: SINGLE_ENDED
-            SIO HiFreq: LOW
-            SIO Hyst: DISABLED
-            SIO Vtrip: MULTIPLIER_0_5
-            SIO Multiplier Index: 0
-            SIO RefSel: VCC_IO
-            Required Capabilities: DIGITAL
-            Initial Value: 1
-            IO Voltage: 0
-        PORT MAP (
-            pa_out => Button(0)__PA ,
-            pad => Button(0)_PAD );
-        Properties:
-        {
-        }
 
     Pin : Name = LED(0)
         Attributes:
@@ -262,7 +223,48 @@ Design Equations
             IO Voltage: 0
         PORT MAP (
             pa_out => LED(0)__PA ,
+            annotation => Net_36 ,
             pad => LED(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = Button(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: NOSYNC
+            Out Sync Option: AUTO
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: RES_PULL_UP
+            VTrip: CMOS
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilities: DIGITAL
+            Initial Value: 1
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => Button(0)__PA ,
+            annotation => Net_41 ,
+            pad => Button(0)_PAD );
         Properties:
         {
         }
@@ -316,8 +318,8 @@ DAC                           :      :      :      :
   7-bit IDAC                  :    0 :    1 :    1 :  0.00 %
   8-bit IDAC                  :    0 :    1 :    1 :  0.00 %
 </CYPRESSTAG>
-Technology Mapping: Elapsed time ==> 0s.009ms
-Tech Mapping phase: Elapsed time ==> 0s.032ms
+Technology Mapping: Elapsed time ==> 0s.008ms
+Tech Mapping phase: Elapsed time ==> 0s.030ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Analog Placement">
 <CYPRESSTAG name="FFB & IO Pre Placement">
@@ -325,22 +327,22 @@ Tech Mapping phase: Elapsed time ==> 0s.032ms
 
 Cell                                : Block                              
 =========================================================================
-Button(0)                           : [IOP=(0)][IoId=(7)]                
 LED(0)                              : [IOP=(1)][IoId=(6)]                
+Button(0)                           : [IOP=(0)][IoId=(7)]                
 ClockGenBlock                       : CLK_GEN_[FFB(CLK_GEN,0)]           
 
 </CYPRESSTAG>
 </CYPRESSTAG>
 <CYPRESSTAG name="Real Analog Placement">
-Elapsed time ==> 0.1458147s
+Elapsed time ==> 0.1551788s
 </CYPRESSTAG>
-Analog Placement phase: Elapsed time ==> 0s.290ms
+Analog Placement phase: Elapsed time ==> 0s.297ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Analog Routing">
 <CYPRESSTAG name="Analog Routing">
-Route success=True, Iterations=1 Elapsed=0.0007565 secs
+Route success=True, Iterations=1 Elapsed=0.0007269 secs
 </CYPRESSTAG>
-Analog Routing phase: Elapsed time ==> 0s.001ms
+Analog Routing phase: Elapsed time ==> 0s.000ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Analog Code Generation">
 ============ Analog Final Answer Routes ============
@@ -370,7 +372,7 @@ PLD Packing: Elapsed time ==> 0s.001ms
 Initial Partitioning Summary not displayed at this verbose level.</CYPRESSTAG>
 <CYPRESSTAG name="Final Partitioning Summary">
 Final Partitioning Summary not displayed at this verbose level.</CYPRESSTAG>
-Partitioning: Elapsed time ==> 0s.007ms
+Partitioning: Elapsed time ==> 0s.009ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Final Placement Summary">
 
@@ -397,12 +399,12 @@ Port 0 contains the following IO cells:
 Pin : Name = Button(0)
     Attributes:
         In Group/Port: True
-        In Sync Option: AUTO
-        Out Sync Option: NOSYNC
+        In Sync Option: NOSYNC
+        Out Sync Option: AUTO
         Interrupt generated: False
         Interrupt mode: NONE
-        Drive mode: CMOS_OUT
-        VTrip: EITHER
+        Drive mode: RES_PULL_UP
+        VTrip: CMOS
         Slew: FAST
         Input Sync needed: False
         Output Sync needed: False
@@ -428,6 +430,7 @@ Pin : Name = Button(0)
         IO Voltage: 0
     PORT MAP (
         pa_out => Button(0)__PA ,
+        annotation => Net_41 ,
         pad => Button(0)_PAD );
     Properties:
     {
@@ -469,6 +472,7 @@ Pin : Name = LED(0)
         IO Voltage: 0
     PORT MAP (
         pa_out => LED(0)__PA ,
+        annotation => Net_36 ,
         pad => LED(0)_PAD );
     Properties:
     {
@@ -525,7 +529,7 @@ Port Configuration report
      |     |       | Interrupt |                  |           | 
 Port | Pin | Fixed |      Type |       Drive Mode |      Name | Connections
 -----+-----+-------+-----------+------------------+-----------+------------
-   0 |   7 |     * |      NONE |         CMOS_OUT | Button(0) | 
+   0 |   7 |     * |      NONE |      RES_PULL_UP | Button(0) | 
 -----+-----+-------+-----------+------------------+-----------+------------
    1 |   6 |     * |      NONE |         CMOS_OUT |    LED(0) | 
 ---------------------------------------------------------------------------
@@ -533,32 +537,32 @@ Port | Pin | Fixed |      Type |       Drive Mode |      Name | Connections
 </CYPRESSTAG>
 </CYPRESSTAG>
 Digital component placer commit/Report: Elapsed time ==> 0s.003ms
-Digital Placement phase: Elapsed time ==> 0s.506ms
+Digital Placement phase: Elapsed time ==> 0s.396ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Digital Routing">
 "C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\bin/sjrouter.exe" --xml-path "C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\dev\psoc4/psoc4a/route_arch-rrg.cydata" --vh2-path "BuzzerProject_r.vh2" --pcf-path "BuzzerProject.pco" --des-name "BuzzerProject" --dsf-path "BuzzerProject.dsf" --sdc-path "BuzzerProject.sdc" --lib-path "BuzzerProject_r.lib"
 Routing successful.
-Digital Routing phase: Elapsed time ==> 0s.513ms
+Digital Routing phase: Elapsed time ==> 0s.520ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Bitstream Generation">
-Bitstream Generation phase: Elapsed time ==> 0s.142ms
+Bitstream Generation phase: Elapsed time ==> 0s.127ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Bitstream Verification">
-Bitstream Verification phase: Elapsed time ==> 0s.028ms
+Bitstream Verification phase: Elapsed time ==> 0s.020ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Static timing analysis">
 Timing report is in BuzzerProject_timing.html.
-Static timing analysis phase: Elapsed time ==> 0s.162ms
+Static timing analysis phase: Elapsed time ==> 0s.148ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Data reporting">
 Data reporting phase: Elapsed time ==> 0s.000ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Database update...">
-Design database save phase: Elapsed time ==> 0s.138ms
+Design database save phase: Elapsed time ==> 0s.131ms
 </CYPRESSTAG>
-cydsfit: Elapsed time ==> 1s.854ms
+cydsfit: Elapsed time ==> 1s.707ms
 </CYPRESSTAG>
-Fitter phase: Elapsed time ==> 1s.855ms
-API generation phase: Elapsed time ==> 0s.734ms
-Dependency generation phase: Elapsed time ==> 0s.009ms
+Fitter phase: Elapsed time ==> 1s.708ms
+API generation phase: Elapsed time ==> 0s.729ms
+Dependency generation phase: Elapsed time ==> 0s.011ms
 Cleanup phase: Elapsed time ==> 0s.000ms
