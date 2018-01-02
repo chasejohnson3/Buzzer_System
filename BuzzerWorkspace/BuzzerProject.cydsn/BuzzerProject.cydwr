@@ -1241,12 +1241,12 @@
     </Group>
     <Group key="aacaa8e8-44db-4af9-b411-3c225739cea2">
       <Group key="0">
-        <Data key="Port Format" value="0,7" />
+        <Data key="Port Format" value="4,1" />
       </Group>
     </Group>
     <Group key="e851a3b9-efb8-48be-bbb8-b303b216c393">
       <Group key="0">
-        <Data key="Port Format" value="1,6" />
+        <Data key="Port Format" value="4,0" />
       </Group>
     </Group>
     <Group key="UnAssigned Pins" />
