@@ -1,5 +1,5 @@
 /*******************************************************************************
-* File Name: Button.h  
+* File Name: LED_4.h  
 * Version 2.20
 *
 * Description:
@@ -15,8 +15,8 @@
 * the software package with which this file was provided.
 *******************************************************************************/
 
-#if !defined(CY_PINS_Button_ALIASES_H) /* Pins Button_ALIASES_H */
-#define CY_PINS_Button_ALIASES_H
+#if !defined(CY_PINS_LED_4_ALIASES_H) /* Pins LED_4_ALIASES_H */
+#define CY_PINS_LED_4_ALIASES_H
 
 #include "cytypes.h"
 #include "cyfitter.h"
@@ -26,17 +26,17 @@
 /***************************************
 *              Constants        
 ***************************************/
-#define Button_0			(Button__0__PC)
-#define Button_0_PS		(Button__0__PS)
-#define Button_0_PC		(Button__0__PC)
-#define Button_0_DR		(Button__0__DR)
-#define Button_0_SHIFT	(Button__0__SHIFT)
-#define Button_0_INTR	((uint16)((uint16)0x0003u << (Button__0__SHIFT*2u)))
+#define LED_4_0			(LED_4__0__PC)
+#define LED_4_0_PS		(LED_4__0__PS)
+#define LED_4_0_PC		(LED_4__0__PC)
+#define LED_4_0_DR		(LED_4__0__DR)
+#define LED_4_0_SHIFT	(LED_4__0__SHIFT)
+#define LED_4_0_INTR	((uint16)((uint16)0x0003u << (LED_4__0__SHIFT*2u)))
 
-#define Button_INTR_ALL	 ((uint16)(Button_0_INTR))
+#define LED_4_INTR_ALL	 ((uint16)(LED_4_0_INTR))
 
 
-#endif /* End Pins Button_ALIASES_H */
+#endif /* End Pins LED_4_ALIASES_H */
 
 
 /* [] END OF FILE */

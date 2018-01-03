@@ -1,5 +1,5 @@
 /*******************************************************************************
-* File Name: LED.h  
+* File Name: LED_4.h  
 * Version 2.20
 *
 * Description:
@@ -15,8 +15,8 @@
 * the software package with which this file was provided.
 *******************************************************************************/
 
-#if !defined(CY_PINS_LED_ALIASES_H) /* Pins LED_ALIASES_H */
-#define CY_PINS_LED_ALIASES_H
+#if !defined(CY_PINS_LED_4_ALIASES_H) /* Pins LED_4_ALIASES_H */
+#define CY_PINS_LED_4_ALIASES_H
 
 #include "cytypes.h"
 #include "cyfitter.h"
@@ -26,17 +26,17 @@
 /***************************************
 *              Constants        
 ***************************************/
-#define LED_0			(LED__0__PC)
-#define LED_0_PS		(LED__0__PS)
-#define LED_0_PC		(LED__0__PC)
-#define LED_0_DR		(LED__0__DR)
-#define LED_0_SHIFT	(LED__0__SHIFT)
-#define LED_0_INTR	((uint16)((uint16)0x0003u << (LED__0__SHIFT*2u)))
+#define LED_4_0			(LED_4__0__PC)
+#define LED_4_0_PS		(LED_4__0__PS)
+#define LED_4_0_PC		(LED_4__0__PC)
+#define LED_4_0_DR		(LED_4__0__DR)
+#define LED_4_0_SHIFT	(LED_4__0__SHIFT)
+#define LED_4_0_INTR	((uint16)((uint16)0x0003u << (LED_4__0__SHIFT*2u)))
 
-#define LED_INTR_ALL	 ((uint16)(LED_0_INTR))
+#define LED_4_INTR_ALL	 ((uint16)(LED_4_0_INTR))
 
 
-#endif /* End Pins LED_ALIASES_H */
+#endif /* End Pins LED_4_ALIASES_H */
 
 
 /* [] END OF FILE */

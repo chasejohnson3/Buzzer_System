@@ -17,7 +17,10 @@ int main(void)
 //    int turnedOff = 1;
 //    int counter = 0;
     /* Place your initialization/startup code here (e.g. MyInst_Start()) */
-   
+    LED_1_Write(0);
+    LED_2_Write(0);
+    LED_3_Write(0);
+    LED_4_Write(0);
     for (;;)
     {
         /*if (Button_Read())
@@ -28,7 +31,38 @@ int main(void)
         {
             LED_Write(0);
         }*/
-        LED_Write(!Button_Read());
+        if (!Button_1_Read())
+        {
+            LED_1_Write(1);
+        }
+        if (!Button_2_Read())
+        {
+            LED_2_Write(1);
+        }
+        if (!Button_3_Read())
+        {
+            LED_3_Write(1);
+        }
+        if (!Button_4_Read())
+        {
+            LED_4_Write(1);
+        }
+        
+        if (!Reset_Read())
+        {
+            LED_1_Write(0);
+            LED_2_Write(0);
+            LED_3_Write(0);
+            LED_4_Write(0);
+        }
+            
+            
+        
+//        LED_1_Write(!Button_1_Read());
+//        LED_2_Write(!Button_2_Read());
+//        LED_3_Write(!Button_3_Read());
+//        LED_4_Write(!Button_4_Read());
+        
 //        LED_Write(0);
 //        if (!Button_Read())
 //        {

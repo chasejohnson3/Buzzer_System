@@ -1,5 +1,5 @@
 /*******************************************************************************
-* File Name: LED.c  
+* File Name: Reset.c  
 * Version 2.20
 *
 * Description:
@@ -13,35 +13,35 @@
 *******************************************************************************/
 
 #include "cytypes.h"
-#include "LED.h"
+#include "Reset.h"
 
 
-#if defined(LED__PC)
-    #define LED_SetP4PinDriveMode(shift, mode)  \
+#if defined(Reset__PC)
+    #define Reset_SetP4PinDriveMode(shift, mode)  \
     do { \
-        LED_PC =   (LED_PC & \
-                                (uint32)(~(uint32)(LED_DRIVE_MODE_IND_MASK << \
-                                (LED_DRIVE_MODE_BITS * (shift))))) | \
+        Reset_PC =   (Reset_PC & \
+                                (uint32)(~(uint32)(Reset_DRIVE_MODE_IND_MASK << \
+                                (Reset_DRIVE_MODE_BITS * (shift))))) | \
                                 (uint32)((uint32)(mode) << \
-                                (LED_DRIVE_MODE_BITS * (shift))); \
+                                (Reset_DRIVE_MODE_BITS * (shift))); \
     } while (0)
 #else
     #if (CY_PSOC4_4200L)
-        #define LED_SetP4PinDriveMode(shift, mode)  \
+        #define Reset_SetP4PinDriveMode(shift, mode)  \
         do { \
-            LED_USBIO_CTRL_REG = (LED_USBIO_CTRL_REG & \
-                                    (uint32)(~(uint32)(LED_DRIVE_MODE_IND_MASK << \
-                                    (LED_DRIVE_MODE_BITS * (shift))))) | \
+            Reset_USBIO_CTRL_REG = (Reset_USBIO_CTRL_REG & \
+                                    (uint32)(~(uint32)(Reset_DRIVE_MODE_IND_MASK << \
+                                    (Reset_DRIVE_MODE_BITS * (shift))))) | \
                                     (uint32)((uint32)(mode) << \
-                                    (LED_DRIVE_MODE_BITS * (shift))); \
+                                    (Reset_DRIVE_MODE_BITS * (shift))); \
         } while (0)
     #endif
 #endif
   
 
-#if defined(LED__PC) || (CY_PSOC4_4200L) 
+#if defined(Reset__PC) || (CY_PSOC4_4200L) 
     /*******************************************************************************
-    * Function Name: LED_SetDriveMode
+    * Function Name: Reset_SetDriveMode
     ****************************************************************************//**
     *
     * \brief Sets the drive mode for each of the Pins component's pins.
@@ -67,17 +67,17 @@
     *  APIs (primary method) or disable interrupts around this function.
     *
     * \funcusage
-    *  \snippet LED_SUT.c usage_LED_SetDriveMode
+    *  \snippet Reset_SUT.c usage_Reset_SetDriveMode
     *******************************************************************************/
-    void LED_SetDriveMode(uint8 mode)
+    void Reset_SetDriveMode(uint8 mode)
     {
-		LED_SetP4PinDriveMode(LED__0__SHIFT, mode);
+		Reset_SetP4PinDriveMode(Reset__0__SHIFT, mode);
     }
 #endif
 
 
 /*******************************************************************************
-* Function Name: LED_Write
+* Function Name: Reset_Write
 ****************************************************************************//**
 *
 * \brief Writes the value to the physical port (data output register), masking
@@ -106,18 +106,18 @@
 *  this function.
 *
 * \funcusage
-*  \snippet LED_SUT.c usage_LED_Write
+*  \snippet Reset_SUT.c usage_Reset_Write
 *******************************************************************************/
-void LED_Write(uint8 value)
+void Reset_Write(uint8 value)
 {
-    uint8 drVal = (uint8)(LED_DR & (uint8)(~LED_MASK));
-    drVal = (drVal | ((uint8)(value << LED_SHIFT) & LED_MASK));
-    LED_DR = (uint32)drVal;
+    uint8 drVal = (uint8)(Reset_DR & (uint8)(~Reset_MASK));
+    drVal = (drVal | ((uint8)(value << Reset_SHIFT) & Reset_MASK));
+    Reset_DR = (uint32)drVal;
 }
 
 
 /*******************************************************************************
-* Function Name: LED_Read
+* Function Name: Reset_Read
 ****************************************************************************//**
 *
 * \brief Reads the associated physical port (pin status register) and masks 
@@ -131,16 +131,16 @@ void LED_Write(uint8 value)
 *  The current value for the pins in the component as a right justified number.
 *
 * \funcusage
-*  \snippet LED_SUT.c usage_LED_Read  
+*  \snippet Reset_SUT.c usage_Reset_Read  
 *******************************************************************************/
-uint8 LED_Read(void)
+uint8 Reset_Read(void)
 {
-    return (uint8)((LED_PS & LED_MASK) >> LED_SHIFT);
+    return (uint8)((Reset_PS & Reset_MASK) >> Reset_SHIFT);
 }
 
 
 /*******************************************************************************
-* Function Name: LED_ReadDataReg
+* Function Name: Reset_ReadDataReg
 ****************************************************************************//**
 *
 * \brief Reads the associated physical port's data output register and masks 
@@ -149,8 +149,8 @@ uint8 LED_Read(void)
 *
 * The data output register controls the signal applied to the physical pin in 
 * conjunction with the drive mode parameter. This is not the same as the 
-* preferred LED_Read() API because the 
-* LED_ReadDataReg() reads the data register instead of the status 
+* preferred Reset_Read() API because the 
+* Reset_ReadDataReg() reads the data register instead of the status 
 * register. For output pins this is a useful function to determine the value 
 * just written to the pin.
 *
@@ -159,16 +159,16 @@ uint8 LED_Read(void)
 *  justified number for the component instance.
 *
 * \funcusage
-*  \snippet LED_SUT.c usage_LED_ReadDataReg 
+*  \snippet Reset_SUT.c usage_Reset_ReadDataReg 
 *******************************************************************************/
-uint8 LED_ReadDataReg(void)
+uint8 Reset_ReadDataReg(void)
 {
-    return (uint8)((LED_DR & LED_MASK) >> LED_SHIFT);
+    return (uint8)((Reset_DR & Reset_MASK) >> Reset_SHIFT);
 }
 
 
 /*******************************************************************************
-* Function Name: LED_SetInterruptMode
+* Function Name: Reset_SetInterruptMode
 ****************************************************************************//**
 *
 * \brief Configures the interrupt mode for each of the Pins component's
@@ -181,12 +181,12 @@ uint8 LED_ReadDataReg(void)
 * \param position
 *  The pin position as listed in the Pins component. You may OR these to be 
 *  able to configure the interrupt mode of multiple pins within a Pins 
-*  component. Or you may use LED_INTR_ALL to configure the
+*  component. Or you may use Reset_INTR_ALL to configure the
 *  interrupt mode of all the pins in the Pins component.       
-*  - LED_0_INTR       (First pin in the list)
-*  - LED_1_INTR       (Second pin in the list)
+*  - Reset_0_INTR       (First pin in the list)
+*  - Reset_1_INTR       (Second pin in the list)
 *  - ...
-*  - LED_INTR_ALL     (All pins in Pins component)
+*  - Reset_INTR_ALL     (All pins in Pins component)
 *
 * \param mode
 *  Interrupt mode for the selected pins. Valid options are documented in
@@ -202,19 +202,19 @@ uint8 LED_ReadDataReg(void)
 *  port.
 *
 * \funcusage
-*  \snippet LED_SUT.c usage_LED_SetInterruptMode
+*  \snippet Reset_SUT.c usage_Reset_SetInterruptMode
 *******************************************************************************/
-void LED_SetInterruptMode(uint16 position, uint16 mode)
+void Reset_SetInterruptMode(uint16 position, uint16 mode)
 {
     uint32 intrCfg;
     
-    intrCfg =  LED_INTCFG & (uint32)(~(uint32)position);
-    LED_INTCFG = intrCfg | ((uint32)position & (uint32)mode);
+    intrCfg =  Reset_INTCFG & (uint32)(~(uint32)position);
+    Reset_INTCFG = intrCfg | ((uint32)position & (uint32)mode);
 }
 
 
 /*******************************************************************************
-* Function Name: LED_ClearInterrupt
+* Function Name: Reset_ClearInterrupt
 ****************************************************************************//**
 *
 * \brief Clears any active interrupts attached with the component and returns 
@@ -231,13 +231,13 @@ void LED_SetInterruptMode(uint16 position, uint16 mode)
 *  those associated with the Pins component.
 *
 * \funcusage
-*  \snippet LED_SUT.c usage_LED_ClearInterrupt
+*  \snippet Reset_SUT.c usage_Reset_ClearInterrupt
 *******************************************************************************/
-uint8 LED_ClearInterrupt(void)
+uint8 Reset_ClearInterrupt(void)
 {
-	uint8 maskedStatus = (uint8)(LED_INTSTAT & LED_MASK);
-	LED_INTSTAT = maskedStatus;
-    return maskedStatus >> LED_SHIFT;
+	uint8 maskedStatus = (uint8)(Reset_INTSTAT & Reset_MASK);
+	Reset_INTSTAT = maskedStatus;
+    return maskedStatus >> Reset_SHIFT;
 }
 
 

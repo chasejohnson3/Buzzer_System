@@ -1,5 +1,5 @@
 /*******************************************************************************
-* File Name: Button.c  
+* File Name: Button_4.c  
 * Version 2.20
 *
 * Description:
@@ -15,13 +15,13 @@
 *******************************************************************************/
 
 #include "cytypes.h"
-#include "Button.h"
+#include "Button_4.h"
 
-static Button_BACKUP_STRUCT  Button_backup = {0u, 0u, 0u};
+static Button_4_BACKUP_STRUCT  Button_4_backup = {0u, 0u, 0u};
 
 
 /*******************************************************************************
-* Function Name: Button_Sleep
+* Function Name: Button_4_Sleep
 ****************************************************************************//**
 *
 * \brief Stores the pin configuration and prepares the pin for entering chip 
@@ -39,30 +39,30 @@ static Button_BACKUP_STRUCT  Button_backup = {0u, 0u, 0u};
 *  deep-sleep/hibernate modes.
 *
 * \funcusage
-*  \snippet Button_SUT.c usage_Button_Sleep_Wakeup
+*  \snippet Button_4_SUT.c usage_Button_4_Sleep_Wakeup
 *******************************************************************************/
-void Button_Sleep(void)
+void Button_4_Sleep(void)
 {
-    #if defined(Button__PC)
-        Button_backup.pcState = Button_PC;
+    #if defined(Button_4__PC)
+        Button_4_backup.pcState = Button_4_PC;
     #else
         #if (CY_PSOC4_4200L)
             /* Save the regulator state and put the PHY into suspend mode */
-            Button_backup.usbState = Button_CR1_REG;
-            Button_USB_POWER_REG |= Button_USBIO_ENTER_SLEEP;
-            Button_CR1_REG &= Button_USBIO_CR1_OFF;
+            Button_4_backup.usbState = Button_4_CR1_REG;
+            Button_4_USB_POWER_REG |= Button_4_USBIO_ENTER_SLEEP;
+            Button_4_CR1_REG &= Button_4_USBIO_CR1_OFF;
         #endif
     #endif
-    #if defined(CYIPBLOCK_m0s8ioss_VERSION) && defined(Button__SIO)
-        Button_backup.sioState = Button_SIO_REG;
+    #if defined(CYIPBLOCK_m0s8ioss_VERSION) && defined(Button_4__SIO)
+        Button_4_backup.sioState = Button_4_SIO_REG;
         /* SIO requires unregulated output buffer and single ended input buffer */
-        Button_SIO_REG &= (uint32)(~Button_SIO_LPM_MASK);
+        Button_4_SIO_REG &= (uint32)(~Button_4_SIO_LPM_MASK);
     #endif  
 }
 
 
 /*******************************************************************************
-* Function Name: Button_Wakeup
+* Function Name: Button_4_Wakeup
 ****************************************************************************//**
 *
 * \brief Restores the pin configuration that was saved during Pin_Sleep(). This 
@@ -77,22 +77,22 @@ void Button_Sleep(void)
 *  None
 *  
 * \funcusage
-*  Refer to Button_Sleep() for an example usage.
+*  Refer to Button_4_Sleep() for an example usage.
 *******************************************************************************/
-void Button_Wakeup(void)
+void Button_4_Wakeup(void)
 {
-    #if defined(Button__PC)
-        Button_PC = Button_backup.pcState;
+    #if defined(Button_4__PC)
+        Button_4_PC = Button_4_backup.pcState;
     #else
         #if (CY_PSOC4_4200L)
             /* Restore the regulator state and come out of suspend mode */
-            Button_USB_POWER_REG &= Button_USBIO_EXIT_SLEEP_PH1;
-            Button_CR1_REG = Button_backup.usbState;
-            Button_USB_POWER_REG &= Button_USBIO_EXIT_SLEEP_PH2;
+            Button_4_USB_POWER_REG &= Button_4_USBIO_EXIT_SLEEP_PH1;
+            Button_4_CR1_REG = Button_4_backup.usbState;
+            Button_4_USB_POWER_REG &= Button_4_USBIO_EXIT_SLEEP_PH2;
         #endif
     #endif
-    #if defined(CYIPBLOCK_m0s8ioss_VERSION) && defined(Button__SIO)
-        Button_SIO_REG = Button_backup.sioState;
+    #if defined(CYIPBLOCK_m0s8ioss_VERSION) && defined(Button_4__SIO)
+        Button_4_SIO_REG = Button_4_backup.sioState;
     #endif
 }
 

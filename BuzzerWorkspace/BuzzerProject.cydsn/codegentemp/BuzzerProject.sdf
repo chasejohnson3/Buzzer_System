@@ -1,6 +1,6 @@
 (DELAYFILE
  (SDFVERSION "IEEE 1497 4.0")
- (DATE "2018-01-02T21:59:43Z")
+ (DATE "2018-01-03T22:59:27Z")
  (DESIGN "BuzzerProject")
  (VENDOR "Cypress Semiconductor")
  (PROGRAM "PSoC Creator")
@@ -12,8 +12,15 @@
   (INSTANCE *)
   (DELAY
    (ABSOLUTE
-    (INTERCONNECT LED\(0\)_PAD LED\(0\).pad_in (0.000:0.000:0.000))
-    (INTERCONNECT Button\(0\)_PAD Button\(0\).pad_in (0.000:0.000:0.000))
+    (INTERCONNECT LED_1\(0\)_PAD LED_1\(0\).pad_in (0.000:0.000:0.000))
+    (INTERCONNECT Button_1\(0\)_PAD Button_1\(0\).pad_in (0.000:0.000:0.000))
+    (INTERCONNECT LED_2\(0\)_PAD LED_2\(0\).pad_in (0.000:0.000:0.000))
+    (INTERCONNECT Button_2\(0\)_PAD Button_2\(0\).pad_in (0.000:0.000:0.000))
+    (INTERCONNECT LED_3\(0\)_PAD LED_3\(0\).pad_in (0.000:0.000:0.000))
+    (INTERCONNECT Button_3\(0\)_PAD Button_3\(0\).pad_in (0.000:0.000:0.000))
+    (INTERCONNECT LED_4\(0\)_PAD LED_4\(0\).pad_in (0.000:0.000:0.000))
+    (INTERCONNECT Button_4\(0\)_PAD Button_4\(0\).pad_in (0.000:0.000:0.000))
+    (INTERCONNECT Reset\(0\)_PAD Reset\(0\).pad_in (0.000:0.000:0.000))
    )
   )
  )

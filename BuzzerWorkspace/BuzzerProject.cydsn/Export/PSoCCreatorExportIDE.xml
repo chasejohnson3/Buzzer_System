@@ -54,14 +54,6 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\cyfitteriar.inc</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\cyfitter.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\cydisabledsheets.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LED.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LED.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LED_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LED_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Button.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Button.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Button_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Button_PM.c</File>
           <File BuildType="BUILD" Toolchain="ARM GCC Generic">Generated_Source\PSoC4\cm0gcc.ld</File>
           <File BuildType="BUILD" Toolchain="ARM MDK Generic">Generated_Source\PSoC4\Cm0RealView.scat</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Cm0Start.c</File>
@@ -91,6 +83,42 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\cycodeshareimport.ld</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\cycodeshareexport.ld</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\cycodeshareimport.scat</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LED_1.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LED_1.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LED_1_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LED_1_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Button_1.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Button_1.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Button_1_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Button_1_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LED_2.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LED_2.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LED_2_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LED_2_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Button_2.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Button_2.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Button_2_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Button_2_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LED_3.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LED_3.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LED_3_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LED_3_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Button_3.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Button_3.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Button_3_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Button_3_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LED_4.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LED_4.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LED_4_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LED_4_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Button_4.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Button_4.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Button_4_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Button_4_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Reset.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Reset.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Reset_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Reset_PM.c</File>
         </Files>
       </Folder>
       <Folder BuildType="STRICT" Path="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\Export\ARM_GCC_Generic">
