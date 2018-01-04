@@ -16,11 +16,14 @@ int main(void)
     CyGlobalIntEnable; /* Enable global interrupts. */
 //    int turnedOff = 1;
 //    int counter = 0;
+    int buttonOn = 0;
     /* Place your initialization/startup code here (e.g. MyInst_Start()) */
     LED_1_Write(0);
     LED_2_Write(0);
     LED_3_Write(0);
     LED_4_Write(0);
+    Buzzer_1_Write(0);
+    Buzzer_2_Write(0);
     for (;;)
     {
         /*if (Button_Read())
@@ -31,21 +34,37 @@ int main(void)
         {
             LED_Write(0);
         }*/
-        if (!Button_1_Read())
+        if (!Button_1_Read() && !buttonOn)
         {
             LED_1_Write(1);
+            buttonOn = 1;
+            Buzzer_1_Write(1);
+            CyDelay(400);
+            Buzzer_1_Write(0);
         }
-        if (!Button_2_Read())
+        if (!Button_2_Read() && !buttonOn)
         {
             LED_2_Write(1);
+            buttonOn = 1;
+            Buzzer_1_Write(1);
+            CyDelay(400);
+            Buzzer_1_Write(0);
         }
-        if (!Button_3_Read())
+        if (!Button_3_Read() && !buttonOn)
         {
             LED_3_Write(1);
+            buttonOn = 1;
+            Buzzer_2_Write(1);
+            CyDelay(400);
+            Buzzer_2_Write(0);
         }
-        if (!Button_4_Read())
+        if (!Button_4_Read() && !buttonOn)
         {
             LED_4_Write(1);
+            buttonOn = 1;
+            Buzzer_2_Write(1);
+            CyDelay(400);
+            Buzzer_2_Write(0);
         }
         
         if (!Reset_Read())
@@ -54,6 +73,7 @@ int main(void)
             LED_2_Write(0);
             LED_3_Write(0);
             LED_4_Write(0);
+            buttonOn = 0;
         }
             
             

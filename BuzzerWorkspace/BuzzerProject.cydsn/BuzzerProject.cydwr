@@ -15,10 +15,12 @@
       <Data key="4d9b48e6-f878-46c1-b692-92a2c8b36b73" value="Reset" />
       <Data key="8d318d8b-cf7b-4b6b-b02c-ab1c5c49d0ba" value="ButtonIn" />
       <Data key="27e9f130-712e-43d7-a677-ccf06fd7c9ee" value="Button" />
+      <Data key="931e5718-60d5-4cb5-9f0f-400bdbadd218" value="Buzzer_2" />
       <Data key="8697a5cf-8016-4097-a4db-f957702e4f15" value="Button" />
       <Data key="76703f01-2d47-46f5-9ec1-e11f7ed98f2d" value="LED_2" />
       <Data key="7063884e-41f8-452f-9047-5fc3aada78b9" value="LED_3" />
       <Data key="aacaa8e8-44db-4af9-b411-3c225739cea2" value="Button_1" />
+      <Data key="af5dba23-1066-4c65-bfed-317b76349c50" value="Buzzer_1" />
       <Data key="caeeedef-e265-4cef-a649-87cf39a9bf5e" value="Button_3" />
       <Data key="e851a3b9-efb8-48be-bbb8-b303b216c393" value="LED_1" />
       <Data key="e31207f0-a206-428a-90e1-fc7b5bb376ce" value="Button_4" />
@@ -1256,6 +1258,11 @@
         <Data key="Port Format" value="0,7" />
       </Group>
     </Group>
+    <Group key="931e5718-60d5-4cb5-9f0f-400bdbadd218">
+      <Group key="0">
+        <Data key="Port Format" value="1,4" />
+      </Group>
+    </Group>
     <Group key="8697a5cf-8016-4097-a4db-f957702e4f15">
       <Group key="0">
         <Data key="Port Format" value="0,7" />
@@ -1274,6 +1281,11 @@
     <Group key="aacaa8e8-44db-4af9-b411-3c225739cea2">
       <Group key="0">
         <Data key="Port Format" value="4,1" />
+      </Group>
+    </Group>
+    <Group key="af5dba23-1066-4c65-bfed-317b76349c50">
+      <Group key="0">
+        <Data key="Port Format" value="1,2" />
       </Group>
     </Group>
     <Group key="caeeedef-e265-4cef-a649-87cf39a9bf5e">

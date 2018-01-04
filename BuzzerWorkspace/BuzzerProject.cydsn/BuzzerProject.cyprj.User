@@ -20,6 +20,10 @@
 <dep name=".\Generated_Source\PSoC4\Button_3_aliases.h" />
 <dep name=".\Generated_Source\PSoC4\Button_4.h" />
 <dep name=".\Generated_Source\PSoC4\Button_4_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\Buzzer_1.h" />
+<dep name=".\Generated_Source\PSoC4\Buzzer_1_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\Buzzer_2.h" />
+<dep name=".\Generated_Source\PSoC4\Buzzer_2_aliases.h" />
 <dep name=".\Generated_Source\PSoC4\CyFlash.h" />
 <dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
 <dep name=".\Generated_Source\PSoC4\CyLib.h" />
@@ -56,6 +60,10 @@
 <file name=".\Generated_Source\PSoC4\Button_3_aliases.h" />
 <file name=".\Generated_Source\PSoC4\Button_4.h" />
 <file name=".\Generated_Source\PSoC4\Button_4_aliases.h" />
+<file name=".\Generated_Source\PSoC4\Buzzer_1.h" />
+<file name=".\Generated_Source\PSoC4\Buzzer_1_aliases.h" />
+<file name=".\Generated_Source\PSoC4\Buzzer_2.h" />
+<file name=".\Generated_Source\PSoC4\Buzzer_2_aliases.h" />
 <file name=".\Generated_Source\PSoC4\CyFlash.h" />
 <file name=".\Generated_Source\PSoC4\CyLFClk.h" />
 <file name=".\Generated_Source\PSoC4\CyLib.h" />
@@ -163,6 +171,46 @@
 <dep name=".\Generated_Source\PSoC4\cytypes.h" />
 </file>
 <file name=".\Generated_Source\PSoC4\Button_4_PM.c" />
+<file name=".\CortexM0\ARM_GCC_541\Debug\Buzzer_1.o">
+<dep name=".\Generated_Source\PSoC4\Buzzer_1.c" />
+<dep name=".\Generated_Source\PSoC4\Buzzer_1.h" />
+<dep name=".\Generated_Source\PSoC4\Buzzer_1_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cypins.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+</file>
+<file name=".\Generated_Source\PSoC4\Buzzer_1.c" />
+<file name=".\CortexM0\ARM_GCC_541\Debug\Buzzer_1_PM.o">
+<dep name=".\Generated_Source\PSoC4\Buzzer_1.h" />
+<dep name=".\Generated_Source\PSoC4\Buzzer_1_PM.c" />
+<dep name=".\Generated_Source\PSoC4\Buzzer_1_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cypins.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+</file>
+<file name=".\Generated_Source\PSoC4\Buzzer_1_PM.c" />
+<file name=".\CortexM0\ARM_GCC_541\Debug\Buzzer_2.o">
+<dep name=".\Generated_Source\PSoC4\Buzzer_2.c" />
+<dep name=".\Generated_Source\PSoC4\Buzzer_2.h" />
+<dep name=".\Generated_Source\PSoC4\Buzzer_2_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cypins.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+</file>
+<file name=".\Generated_Source\PSoC4\Buzzer_2.c" />
+<file name=".\CortexM0\ARM_GCC_541\Debug\Buzzer_2_PM.o">
+<dep name=".\Generated_Source\PSoC4\Buzzer_2.h" />
+<dep name=".\Generated_Source\PSoC4\Buzzer_2_PM.c" />
+<dep name=".\Generated_Source\PSoC4\Buzzer_2_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cypins.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+</file>
+<file name=".\Generated_Source\PSoC4\Buzzer_2_PM.c" />
 <file name=".\CortexM0\ARM_GCC_541\Debug\Cm0Start.o">
 <dep name=".\Generated_Source\PSoC4\Cm0Start.c" />
 <dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
@@ -341,6 +389,28 @@
 <file name=".\Generated_Source\PSoC4\CyBootAsmGnu.s" />
 <file name=".\Generated_Source\PSoC4\cydevicegnu_trm.inc" />
 <file name=".\Generated_Source\PSoC4\cyfittergnu.inc" />
+<file name=".\CortexM0\ARM_GCC_541\Debug\Buzzer1.o">
+<dep name=".\Generated_Source\PSoC4\Buzzer1.c" />
+<dep name=".\Generated_Source\PSoC4\Buzzer1.h" />
+<dep name=".\Generated_Source\PSoC4\Buzzer1_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cypins.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+</file>
+<file name=".\Generated_Source\PSoC4\Buzzer1.c" />
+<file name=".\Generated_Source\PSoC4\Buzzer1.h" />
+<file name=".\Generated_Source\PSoC4\Buzzer1_aliases.h" />
+<file name=".\CortexM0\ARM_GCC_541\Debug\Buzzer1_PM.o">
+<dep name=".\Generated_Source\PSoC4\Buzzer1.h" />
+<dep name=".\Generated_Source\PSoC4\Buzzer1_PM.c" />
+<dep name=".\Generated_Source\PSoC4\Buzzer1_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cypins.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+</file>
+<file name=".\Generated_Source\PSoC4\Buzzer1_PM.c" />
 <file name=".\CortexM0\ARM_GCC_541\Debug\Button.o">
 <dep name=".\Generated_Source\PSoC4\Button.c" />
 <dep name=".\Generated_Source\PSoC4\Button.h" />
@@ -457,6 +527,10 @@
 <dep name=".\CortexM0\ARM_GCC_541\Debug\Button_4_PM.o" />
 <dep name=".\CortexM0\ARM_GCC_541\Debug\Reset.o" />
 <dep name=".\CortexM0\ARM_GCC_541\Debug\Reset_PM.o" />
+<dep name=".\CortexM0\ARM_GCC_541\Debug\Buzzer_1.o" />
+<dep name=".\CortexM0\ARM_GCC_541\Debug\Buzzer_1_PM.o" />
+<dep name=".\CortexM0\ARM_GCC_541\Debug\Buzzer_2.o" />
+<dep name=".\CortexM0\ARM_GCC_541\Debug\Buzzer_2_PM.o" />
 <dep name=".\CortexM0\ARM_GCC_541\Debug\BuzzerProject.a" />
 <dep name="${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM0\ARM_GCC_541\Debug\CyComponentLibrary.a" />
 </file>
@@ -506,6 +580,12 @@
 <name_val_pair name="Generated_Source\PSoC4\Button_4_PM.c" v="-mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og" />
 <name_val_pair name="Generated_Source\PSoC4\Reset.c" v="-mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og" />
 <name_val_pair name="Generated_Source\PSoC4\Reset_PM.c" v="-mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og" />
+<name_val_pair name="Generated_Source\PSoC4\Buzzer1.c" v="-mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og" />
+<name_val_pair name="Generated_Source\PSoC4\Buzzer1_PM.c" v="-mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og" />
+<name_val_pair name="Generated_Source\PSoC4\Buzzer_1.c" v="-mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og" />
+<name_val_pair name="Generated_Source\PSoC4\Buzzer_1_PM.c" v="-mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og" />
+<name_val_pair name="Generated_Source\PSoC4\Buzzer_2.c" v="-mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og" />
+<name_val_pair name="Generated_Source\PSoC4\Buzzer_2_PM.c" v="-mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og" />
 </name>
 </genericCmdLineData>
 <codeGenCmdLineTag v="-.appdatapath &quot;C:\Users\User\AppData\Local\Cypress Semiconductor\PSoC Creator\4.1&quot; -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p &quot;C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\BuzzerProject.cyprj&quot; -d CY8C4245AXI-483 -s &quot;C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\Generated_Source\PSoC4&quot; -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE" />
@@ -697,13 +777,25 @@
 <v>Generated_Source\PSoC4\Reset.h</v>
 <v>Generated_Source\PSoC4\Reset_aliases.h</v>
 <v>Generated_Source\PSoC4\Reset_PM.c</v>
+<v>Generated_Source\PSoC4\Buzzer1.c</v>
+<v>Generated_Source\PSoC4\Buzzer1.h</v>
+<v>Generated_Source\PSoC4\Buzzer1_aliases.h</v>
+<v>Generated_Source\PSoC4\Buzzer1_PM.c</v>
+<v>Generated_Source\PSoC4\Buzzer_1.c</v>
+<v>Generated_Source\PSoC4\Buzzer_1.h</v>
+<v>Generated_Source\PSoC4\Buzzer_1_aliases.h</v>
+<v>Generated_Source\PSoC4\Buzzer_1_PM.c</v>
+<v>Generated_Source\PSoC4\Buzzer_2.c</v>
+<v>Generated_Source\PSoC4\Buzzer_2.h</v>
+<v>Generated_Source\PSoC4\Buzzer_2_aliases.h</v>
+<v>Generated_Source\PSoC4\Buzzer_2_PM.c</v>
 </gen_list>
 <warp_dep>
 <v>C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\ieee\work\stdlogic.vif</v>
 <v>C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif</v>
 <v>C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif</v>
 </warp_dep>
-<deps_time v="131594939686041528" />
+<deps_time v="131595171982852893" />
 <top_block v="TopDesign" />
 <last_generation v="0" />
 <pdl_path v="" />
@@ -713,7 +805,7 @@
 <dataGuid v="769d31ea-68b1-4f0c-b90a-7c10a43ee563">
 <CyGuid_769d31ea-68b1-4f0c-b90a-7c10a43ee563 type_name="CyDesigner.Common.ProjMgmt.Model.CyLinkCustomData" version="1">
 <link_deps_times>
-<name_val_pair name="c9323d49-d323-40b8-9b59-cc008d68a989@Debug@CortexM0" v="131594939867409324" />
+<name_val_pair name="c9323d49-d323-40b8-9b59-cc008d68a989@Debug@CortexM0" v="131595172234379331" />
 </link_deps_times>
 </CyGuid_769d31ea-68b1-4f0c-b90a-7c10a43ee563>
 </dataGuid>

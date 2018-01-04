@@ -2,7 +2,7 @@
 --	Conversion of BuzzerProject.v to vh2:
 --
 --	Cypress Semiconductor - WARP Version 6.3 IR 41
---	Wed Jan 03 16:59:25 2018
+--	Wed Jan 03 23:26:34 2018
 --
 
 USE cypress.cypress.all;
@@ -81,6 +81,22 @@ TERMINAL tmpSIOVREF__Reset_net_0 : bit;
 TERMINAL Net_58 : bit;
 SIGNAL tmpINTERRUPT_0__Reset_net_0 : bit;
 TERMINAL Net_59 : bit;
+SIGNAL tmpOE__Buzzer_1_net_0 : bit;
+SIGNAL tmpFB_0__Buzzer_1_net_0 : bit;
+SIGNAL tmpIO_0__Buzzer_1_net_0 : bit;
+TERMINAL tmpSIOVREF__Buzzer_1_net_0 : bit;
+TERMINAL Net_60 : bit;
+SIGNAL tmpINTERRUPT_0__Buzzer_1_net_0 : bit;
+TERMINAL Net_61 : bit;
+TERMINAL Net_62 : bit;
+SIGNAL tmpOE__Buzzer_2_net_0 : bit;
+SIGNAL tmpFB_0__Buzzer_2_net_0 : bit;
+SIGNAL tmpIO_0__Buzzer_2_net_0 : bit;
+TERMINAL tmpSIOVREF__Buzzer_2_net_0 : bit;
+TERMINAL Net_63 : bit;
+SIGNAL tmpINTERRUPT_0__Buzzer_2_net_0 : bit;
+TERMINAL Net_64 : bit;
+TERMINAL Net_65 : bit;
 BEGIN
 
 zero <=  ('0') ;
@@ -827,5 +843,175 @@ GND_5:cy_annotation_universal_v1_0
 		port_names=>"T1",
 		width=>1)
 	PORT MAP(connect=>Net_59);
+Buzzer_1:cy_psoc3_pins_v1_10
+	GENERIC MAP(id=>"af5dba23-1066-4c65-bfed-317b76349c50",
+		drive_mode=>"110",
+		ibuf_enabled=>"1",
+		init_dr_st=>"1",
+		input_sync=>"1",
+		input_clk_en=>'0',
+		input_sync_mode=>"0",
+		intr_mode=>"00",
+		invert_in_clock=>'0',
+		invert_in_clock_en=>'0',
+		invert_in_reset=>'0',
+		invert_out_clock=>'0',
+		invert_out_clock_en=>'0',
+		invert_out_reset=>'0',
+		io_voltage=>"",
+		layout_mode=>"CONTIGUOUS",
+		output_conn=>"0",
+		output_sync=>"0",
+		output_clk_en=>'0',
+		output_mode=>"0",
+		output_reset=>'0',
+		output_clock_mode=>"0",
+		oe_sync=>"0",
+		oe_conn=>"0",
+		oe_reset=>'0',
+		pin_aliases=>"",
+		pin_mode=>"O",
+		por_state=>4,
+		sio_group_cnt=>0,
+		sio_hifreq=>"00000000",
+		sio_hyst=>"1",
+		sio_ibuf=>"00000000",
+		sio_info=>"00",
+		sio_obuf=>"00000000",
+		sio_refsel=>"00000000",
+		sio_vtrip=>"00000000",
+		sio_vohsel=>"00000000",
+		slew_rate=>"0",
+		spanning=>'0',
+		sw_only=>'0',
+		vtrip=>"10",
+		width=>1,
+		port_alias_required=>'0',
+		port_alias_group=>"",
+		use_annotation=>"1",
+		pa_in_clock=>-1,
+		pa_in_clock_en=>-1,
+		pa_in_reset=>-1,
+		pa_out_clock=>-1,
+		pa_out_clock_en=>-1,
+		pa_out_reset=>-1,
+		ovt_needed=>"0",
+		ovt_slew_control=>"00",
+		ovt_hyst_trim=>"0",
+		input_buffer_sel=>"00")
+	PORT MAP(oe=>(tmpOE__LED_1_net_0),
+		y=>(zero),
+		fb=>(tmpFB_0__Buzzer_1_net_0),
+		analog=>(open),
+		io=>(tmpIO_0__Buzzer_1_net_0),
+		siovref=>(tmpSIOVREF__Buzzer_1_net_0),
+		annotation=>Net_60,
+		in_clock=>zero,
+		in_clock_en=>tmpOE__LED_1_net_0,
+		in_reset=>zero,
+		out_clock=>zero,
+		out_clock_en=>tmpOE__LED_1_net_0,
+		out_reset=>zero,
+		interrupt=>tmpINTERRUPT_0__Buzzer_1_net_0);
+R_5:cy_annotation_universal_v1_0
+	GENERIC MAP(comp_name=>"Resistor_v1_0",
+		port_names=>"T1, T2",
+		width=>2)
+	PORT MAP(connect=>(Net_60, Net_61));
+LEDdoc_4:cy_annotation_universal_v1_0
+	GENERIC MAP(comp_name=>"LED_v1_0",
+		port_names=>"A, K",
+		width=>2)
+	PORT MAP(connect=>(Net_61, Net_62));
+PWR_5:cy_annotation_universal_v1_0
+	GENERIC MAP(comp_name=>"Power_v1_0",
+		port_names=>"T1",
+		width=>1)
+	PORT MAP(connect=>Net_62);
+Buzzer_2:cy_psoc3_pins_v1_10
+	GENERIC MAP(id=>"931e5718-60d5-4cb5-9f0f-400bdbadd218",
+		drive_mode=>"110",
+		ibuf_enabled=>"1",
+		init_dr_st=>"1",
+		input_sync=>"1",
+		input_clk_en=>'0',
+		input_sync_mode=>"0",
+		intr_mode=>"00",
+		invert_in_clock=>'0',
+		invert_in_clock_en=>'0',
+		invert_in_reset=>'0',
+		invert_out_clock=>'0',
+		invert_out_clock_en=>'0',
+		invert_out_reset=>'0',
+		io_voltage=>"",
+		layout_mode=>"CONTIGUOUS",
+		output_conn=>"0",
+		output_sync=>"0",
+		output_clk_en=>'0',
+		output_mode=>"0",
+		output_reset=>'0',
+		output_clock_mode=>"0",
+		oe_sync=>"0",
+		oe_conn=>"0",
+		oe_reset=>'0',
+		pin_aliases=>"",
+		pin_mode=>"O",
+		por_state=>4,
+		sio_group_cnt=>0,
+		sio_hifreq=>"00000000",
+		sio_hyst=>"1",
+		sio_ibuf=>"00000000",
+		sio_info=>"00",
+		sio_obuf=>"00000000",
+		sio_refsel=>"00000000",
+		sio_vtrip=>"00000000",
+		sio_vohsel=>"00000000",
+		slew_rate=>"0",
+		spanning=>'0',
+		sw_only=>'0',
+		vtrip=>"10",
+		width=>1,
+		port_alias_required=>'0',
+		port_alias_group=>"",
+		use_annotation=>"1",
+		pa_in_clock=>-1,
+		pa_in_clock_en=>-1,
+		pa_in_reset=>-1,
+		pa_out_clock=>-1,
+		pa_out_clock_en=>-1,
+		pa_out_reset=>-1,
+		ovt_needed=>"0",
+		ovt_slew_control=>"00",
+		ovt_hyst_trim=>"0",
+		input_buffer_sel=>"00")
+	PORT MAP(oe=>(tmpOE__LED_1_net_0),
+		y=>(zero),
+		fb=>(tmpFB_0__Buzzer_2_net_0),
+		analog=>(open),
+		io=>(tmpIO_0__Buzzer_2_net_0),
+		siovref=>(tmpSIOVREF__Buzzer_2_net_0),
+		annotation=>Net_63,
+		in_clock=>zero,
+		in_clock_en=>tmpOE__LED_1_net_0,
+		in_reset=>zero,
+		out_clock=>zero,
+		out_clock_en=>tmpOE__LED_1_net_0,
+		out_reset=>zero,
+		interrupt=>tmpINTERRUPT_0__Buzzer_2_net_0);
+R_6:cy_annotation_universal_v1_0
+	GENERIC MAP(comp_name=>"Resistor_v1_0",
+		port_names=>"T1, T2",
+		width=>2)
+	PORT MAP(connect=>(Net_63, Net_64));
+LEDdoc_5:cy_annotation_universal_v1_0
+	GENERIC MAP(comp_name=>"LED_v1_0",
+		port_names=>"A, K",
+		width=>2)
+	PORT MAP(connect=>(Net_64, Net_65));
+PWR_6:cy_annotation_universal_v1_0
+	GENERIC MAP(comp_name=>"Power_v1_0",
+		port_names=>"T1",
+		width=>1)
+	PORT MAP(connect=>Net_65);
 
 END R_T_L;

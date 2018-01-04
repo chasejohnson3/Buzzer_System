@@ -288,8 +288,8 @@ void cyfitter_cfg(void)
 	CY_SET_REG32((void *)(CYREG_PRT0_PC), 0x000B0582u);
 
 	/* IOPINS0_1 Starting address: CYDEV_PRT1_BASE */
-	CY_SET_REG32((void *)(CYDEV_PRT1_BASE), 0x00000001u);
-	CY_SET_REG32((void *)(CYREG_PRT1_PC), 0x00000002u);
+	CY_SET_REG32((void *)(CYDEV_PRT1_BASE), 0x00000015u);
+	CY_SET_REG32((void *)(CYREG_PRT1_PC), 0x00006182u);
 
 	/* IOPINS0_3 Starting address: CYDEV_PRT3_BASE */
 	CY_SET_REG32((void *)(CYREG_PRT3_PC), 0x00000D80u);

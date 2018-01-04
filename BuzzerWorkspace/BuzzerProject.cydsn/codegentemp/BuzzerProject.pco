@@ -1,5 +1,5 @@
 # BuzzerProject
-# 2018-01-03 22:59:26Z
+# 2018-01-04 05:26:36Z
 
 # IO_2@[IOP=(3)][IoId=(2)] is reserved: SWDDebugEnabled
 dont_use_io iocell 3 2
@@ -16,3 +16,5 @@ set_io "Button_3(0)" iocell 0 3
 set_io "LED_4(0)" iocell 0 5
 set_io "Button_4(0)" iocell 0 6
 set_io "Reset(0)" iocell 1 0
+set_io "Buzzer_1(0)" iocell 1 2
+set_io "Buzzer_2(0)" iocell 1 4
