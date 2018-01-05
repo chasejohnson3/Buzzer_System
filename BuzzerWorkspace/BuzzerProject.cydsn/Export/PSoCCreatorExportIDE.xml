@@ -37,7 +37,9 @@
       <Folder BuildType="STRICT" Path="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn">
         <Files Root="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn">
           <File BuildType="BUILD" Toolchain="">main.c</File>
+          <File BuildType="BUILD" Toolchain="">buzzerFuncs.c</File>
           <File BuildType="BUILD" Toolchain="">cyapicallbacks.h</File>
+          <File BuildType="BUILD" Toolchain="">buzzerFuncs.h</File>
         </Files>
       </Folder>
       <Folder BuildType="STRICT" Path="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\Generated_Source\PSoC4">
@@ -127,6 +129,13 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Buzzer_2.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Buzzer_2_aliases.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Buzzer_2_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LCD_Char_1.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LCD_Char_1.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LCD_Char_1_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LCD_Char_1_LCDPort.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LCD_Char_1_LCDPort.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LCD_Char_1_LCDPort_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LCD_Char_1_LCDPort_PM.c</File>
         </Files>
       </Folder>
       <Folder BuildType="STRICT" Path="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\Export\ARM_GCC_Generic">

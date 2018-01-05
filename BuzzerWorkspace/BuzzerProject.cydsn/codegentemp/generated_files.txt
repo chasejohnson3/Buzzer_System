@@ -57,6 +57,13 @@
   <file name="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\codegentemp\Buzzer_2.h" value="HEADER;;;;;Buzzer_2" />
   <file name="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\codegentemp\Buzzer_2_aliases.h" value="HEADER;;;;;Buzzer_2" />
   <file name="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\codegentemp\Buzzer_2_PM.c" value="SOURCE_C;CortexM0;;;;Buzzer_2" />
+  <file name="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\codegentemp\LCD_Char_1.c" value="SOURCE_C;CortexM0;;;;LCD_Char_1" />
+  <file name="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\codegentemp\LCD_Char_1.h" value="HEADER;;;;;LCD_Char_1" />
+  <file name="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\codegentemp\LCD_Char_1_PM.c" value="SOURCE_C;CortexM0;;;;LCD_Char_1" />
+  <file name="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\codegentemp\LCD_Char_1_LCDPort.c" value="SOURCE_C;CortexM0;;;;LCD_Char_1_LCDPort" />
+  <file name="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\codegentemp\LCD_Char_1_LCDPort.h" value="HEADER;;;;;LCD_Char_1_LCDPort" />
+  <file name="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\codegentemp\LCD_Char_1_LCDPort_aliases.h" value="HEADER;;;;;LCD_Char_1_LCDPort" />
+  <file name="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\codegentemp\LCD_Char_1_LCDPort_PM.c" value="SOURCE_C;CortexM0;;;;LCD_Char_1_LCDPort" />
   <file name="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\codegentemp\cm0gcc.ld" value="LINKER_SCRIPT;;;b98f980c-3bd1-4fc7-a887-c56a20a46fdd;;cy_boot" />
   <file name="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\codegentemp\Cm0RealView.scat" value="LINKER_SCRIPT;;;fdb8e1ae-f83a-46cf-9446-1d703716f38a;;cy_boot" />
   <file name="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\codegentemp\Cm0Start.c" value="SOURCE_C;CortexM0;;;;cy_boot" />

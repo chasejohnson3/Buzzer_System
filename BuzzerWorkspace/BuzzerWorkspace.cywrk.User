@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="BuzzerWorkspace\BuzzerProject\Source Files\main.c">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="BuzzerWorkspace\BuzzerProject\Generated_Source\PSoC4\cyfitter_cfg.c">
 <ExpandedNodeIds>
 <v>BuzzerWorkspace</v>
 <v>BuzzerWorkspace\BuzzerProject</v>
@@ -27,14 +27,18 @@
 <v>BuzzerWorkspace\BuzzerProject\BuzzerProject.cydwr\Directives</v>
 <v>BuzzerWorkspace\BuzzerProject\BuzzerProject.cydwr\Flash Security</v>
 <v>BuzzerWorkspace\BuzzerProject\Header Files</v>
+<v>BuzzerWorkspace\BuzzerProject\Header Files\buzzerFuncs.h</v>
 <v>BuzzerWorkspace\BuzzerProject\Header Files\cyapicallbacks.h</v>
 <v>BuzzerWorkspace\BuzzerProject\Source Files</v>
+<v>BuzzerWorkspace\BuzzerProject\Source Files\buzzerFuncs.c</v>
 <v>BuzzerWorkspace\BuzzerProject\Source Files\main.c</v>
 <v>BuzzerWorkspace\BuzzerProject\Generated_Source</v>
 <v>BuzzerWorkspace\BuzzerProject\Generated_Source\PSoC4</v>
 <v>BuzzerWorkspace\Input_Test</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
+<v>BuzzerWorkspace</v>
+<v>BuzzerWorkspace\BuzzerProject</v>
 <v>BuzzerWorkspace\BuzzerProject\TopDesign</v>
 <v>BuzzerWorkspace\BuzzerProject\BuzzerProject.cydwr</v>
 <v>BuzzerWorkspace\BuzzerProject\BuzzerProject.cydwr\Pins</v>
@@ -45,8 +49,10 @@
 <v>BuzzerWorkspace\BuzzerProject\BuzzerProject.cydwr\Directives</v>
 <v>BuzzerWorkspace\BuzzerProject\BuzzerProject.cydwr\Flash Security</v>
 <v>BuzzerWorkspace\BuzzerProject\Header Files</v>
+<v>BuzzerWorkspace\BuzzerProject\Header Files\buzzerFuncs.h</v>
 <v>BuzzerWorkspace\BuzzerProject\Header Files\cyapicallbacks.h</v>
 <v>BuzzerWorkspace\BuzzerProject\Source Files</v>
+<v>BuzzerWorkspace\BuzzerProject\Source Files\buzzerFuncs.c</v>
 <v>BuzzerWorkspace\BuzzerProject\Source Files\main.c</v>
 <v>BuzzerWorkspace\BuzzerProject\Generated_Source</v>
 <v>BuzzerWorkspace\BuzzerProject\Generated_Source\PSoC4</v>
@@ -58,6 +64,8 @@
 <v>BuzzerWorkspace\BuzzerProject\Generated_Source\PSoC4\Buzzer_2</v>
 <v>BuzzerWorkspace\BuzzerProject\Generated_Source\PSoC4\cy_boot</v>
 <v>BuzzerWorkspace\BuzzerProject\Generated_Source\PSoC4\cy_lfclk</v>
+<v>BuzzerWorkspace\BuzzerProject\Generated_Source\PSoC4\LCD_Char_1</v>
+<v>BuzzerWorkspace\BuzzerProject\Generated_Source\PSoC4\LCD_Char_1_LCDPort</v>
 <v>BuzzerWorkspace\BuzzerProject\Generated_Source\PSoC4\LED_1</v>
 <v>BuzzerWorkspace\BuzzerProject\Generated_Source\PSoC4\LED_2</v>
 <v>BuzzerWorkspace\BuzzerProject\Generated_Source\PSoC4\LED_3</v>
@@ -65,12 +73,6 @@
 <v>BuzzerWorkspace\BuzzerProject\Generated_Source\PSoC4\Reset</v>
 <v>BuzzerWorkspace\BuzzerProject\Generated_Source\PSoC4\cycodeshareexport.ld</v>
 <v>BuzzerWorkspace\BuzzerProject\Generated_Source\PSoC4\cycodeshareimport.ld</v>
-<v>BuzzerWorkspace\BuzzerProject\Generated_Source\PSoC4\cycodeshareimport.scat</v>
-<v>BuzzerWorkspace\BuzzerProject\Generated_Source\PSoC4\cydevice_trm.h</v>
-<v>BuzzerWorkspace\BuzzerProject\Generated_Source\PSoC4\cydevicegnu_trm.inc</v>
-<v>BuzzerWorkspace\BuzzerProject\Generated_Source\PSoC4\cydeviceiar_trm.inc</v>
-<v>BuzzerWorkspace\BuzzerProject\Generated_Source\PSoC4\cydevicerv_trm.inc</v>
-<v>BuzzerWorkspace\BuzzerProject\Generated_Source\PSoC4\cydisabledsheets.h</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -109,6 +111,7 @@
 <v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\Buzzer_1_PM.lst</v>
 <v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\Buzzer_2.lst</v>
 <v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\Buzzer_2_PM.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\buzzerFuncs.lst</v>
 <v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\Cm0Start.lst</v>
 <v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
 <v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
@@ -118,6 +121,10 @@
 <v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
 <v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
 <v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\LCD_Char_1.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\LCD_Char_1_LCDPort.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\LCD_Char_1_LCDPort_PM.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\LCD_Char_1_PM.lst</v>
 <v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_1.lst</v>
 <v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_1_PM.lst</v>
 <v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_2.lst</v>
@@ -156,6 +163,7 @@
 <v>BuzzerWorkspace\BuzzerProject\System Reference Guides</v>
 <v>BuzzerWorkspace\BuzzerProject\System Reference Guides\cy_boot_v5_60</v>
 <v>BuzzerWorkspace\BuzzerProject\System Reference Guides\cy_lfclk_v1_20</v>
+<v>BuzzerWorkspace\BuzzerProject\CharLCD_v2_20.pdf</v>
 <v>BuzzerWorkspace\BuzzerProject\cy_pins_v2_20</v>
 <v>BuzzerWorkspace\BuzzerProject\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
 <v>BuzzerWorkspace\BuzzerProject\Gnd_v1_0</v>
@@ -177,6 +185,7 @@
 <v>BuzzerWorkspace\BuzzerProject\System Reference Guides</v>
 <v>BuzzerWorkspace\BuzzerProject\System Reference Guides\cy_boot_v5_60</v>
 <v>BuzzerWorkspace\BuzzerProject\System Reference Guides\cy_lfclk_v1_20</v>
+<v>BuzzerWorkspace\BuzzerProject\CharLCD_v2_20.pdf</v>
 <v>BuzzerWorkspace\BuzzerProject\cy_pins_v2_20</v>
 <v>BuzzerWorkspace\BuzzerProject\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
 <v>BuzzerWorkspace\BuzzerProject\Gnd_v1_0</v>

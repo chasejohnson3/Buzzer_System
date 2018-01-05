@@ -15,6 +15,7 @@
       <Data key="4d9b48e6-f878-46c1-b692-92a2c8b36b73" value="Reset" />
       <Data key="8d318d8b-cf7b-4b6b-b02c-ab1c5c49d0ba" value="ButtonIn" />
       <Data key="27e9f130-712e-43d7-a677-ccf06fd7c9ee" value="Button" />
+      <Data key="608d52e2-0db5-4276-b589-6c2658941916/ed092b9b-d398-4703-be89-cebf998501f6" value="LCD_Char_1_LCDPort" />
       <Data key="931e5718-60d5-4cb5-9f0f-400bdbadd218" value="Buzzer_2" />
       <Data key="8697a5cf-8016-4097-a4db-f957702e4f15" value="Button" />
       <Data key="76703f01-2d47-46f5-9ec1-e11f7ed98f2d" value="LED_2" />
@@ -1256,6 +1257,29 @@
     <Group key="27e9f130-712e-43d7-a677-ccf06fd7c9ee">
       <Group key="0">
         <Data key="Port Format" value="0,7" />
+      </Group>
+    </Group>
+    <Group key="608d52e2-0db5-4276-b589-6c2658941916/ed092b9b-d398-4703-be89-cebf998501f6">
+      <Group key="0">
+        <Data key="Port Format" value="2,0" />
+      </Group>
+      <Group key="1">
+        <Data key="Port Format" value="2,1" />
+      </Group>
+      <Group key="2">
+        <Data key="Port Format" value="2,2" />
+      </Group>
+      <Group key="3">
+        <Data key="Port Format" value="2,3" />
+      </Group>
+      <Group key="4">
+        <Data key="Port Format" value="2,4" />
+      </Group>
+      <Group key="5">
+        <Data key="Port Format" value="2,5" />
+      </Group>
+      <Group key="6">
+        <Data key="Port Format" value="2,6" />
       </Group>
     </Group>
     <Group key="931e5718-60d5-4cb5-9f0f-400bdbadd218">

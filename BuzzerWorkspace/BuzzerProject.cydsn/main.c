@@ -14,10 +14,16 @@
 int main(void)
 {
     CyGlobalIntEnable; /* Enable global interrupts. */
+    LCD_Char_1_Start();
 //    int turnedOff = 1;
 //    int counter = 0;
-    int buttonOn = 0;
+//    int buttonOn = 0;
     /* Place your initialization/startup code here (e.g. MyInst_Start()) */
+    LCD_Char_1_Position(0u, 0u);
+//    LCD_Char_1_
+    LCD_Char_1_PrintString("Science Bowl2000"); 
+    LCD_Char_1_Position(1u,0u);
+    LCD_Char_1_PrintString("Press Reset"); 
     LED_1_Write(0);
     LED_2_Write(0);
     LED_3_Write(0);
@@ -26,6 +32,7 @@ int main(void)
     Buzzer_2_Write(0);
     for (;;)
     {
+        gamePlay();
         /*if (Button_Read())
         {
             LED_Write(1);
@@ -34,47 +41,47 @@ int main(void)
         {
             LED_Write(0);
         }*/
-        if (!Button_1_Read() && !buttonOn)
-        {
-            LED_1_Write(1);
-            buttonOn = 1;
-            Buzzer_1_Write(1);
-            CyDelay(400);
-            Buzzer_1_Write(0);
-        }
-        if (!Button_2_Read() && !buttonOn)
-        {
-            LED_2_Write(1);
-            buttonOn = 1;
-            Buzzer_1_Write(1);
-            CyDelay(400);
-            Buzzer_1_Write(0);
-        }
-        if (!Button_3_Read() && !buttonOn)
-        {
-            LED_3_Write(1);
-            buttonOn = 1;
-            Buzzer_2_Write(1);
-            CyDelay(400);
-            Buzzer_2_Write(0);
-        }
-        if (!Button_4_Read() && !buttonOn)
-        {
-            LED_4_Write(1);
-            buttonOn = 1;
-            Buzzer_2_Write(1);
-            CyDelay(400);
-            Buzzer_2_Write(0);
-        }
-        
-        if (!Reset_Read())
-        {
-            LED_1_Write(0);
-            LED_2_Write(0);
-            LED_3_Write(0);
-            LED_4_Write(0);
-            buttonOn = 0;
-        }
+//        if (!Button_1_Read() && !buttonOn)
+//        {
+//            LED_1_Write(1);
+//            buttonOn = 1;
+//            Buzzer_1_Write(1);
+//            CyDelay(400);
+//            Buzzer_1_Write(0);
+//        }
+//        if (!Button_2_Read() && !buttonOn)
+//        {
+//            LED_2_Write(1);
+//            buttonOn = 1;
+//            Buzzer_1_Write(1);
+//            CyDelay(400);
+//            Buzzer_1_Write(0);
+//        }
+//        if (!Button_3_Read() && !buttonOn)
+//        {
+//            LED_3_Write(1);
+//            buttonOn = 1;
+//            Buzzer_2_Write(1);
+//            CyDelay(400);
+//            Buzzer_2_Write(0);
+//        }
+//        if (!Button_4_Read() && !buttonOn)
+//        {
+//            LED_4_Write(1);
+//            buttonOn = 1;
+//            Buzzer_2_Write(1);
+//            CyDelay(400);
+//            Buzzer_2_Write(0);
+//        }
+//        
+//        if (!Reset_Read())
+//        {
+//            LED_1_Write(0);
+//            LED_2_Write(0);
+//            LED_3_Write(0);
+//            LED_4_Write(0);
+//            buttonOn = 0;
+//        }
             
             
         

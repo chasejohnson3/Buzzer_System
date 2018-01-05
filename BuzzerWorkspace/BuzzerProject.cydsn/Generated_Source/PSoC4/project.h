@@ -40,6 +40,9 @@
 #include "Buzzer_1_aliases.h"
 #include "Buzzer_2.h"
 #include "Buzzer_2_aliases.h"
+#include "LCD_Char_1.h"
+#include "LCD_Char_1_LCDPort.h"
+#include "LCD_Char_1_LCDPort_aliases.h"
 #include "core_cm0_psoc4.h"
 #include "CyFlash.h"
 #include "CyLib.h"
@@ -47,6 +50,8 @@
 #include "cytypes.h"
 #include "cypins.h"
 #include "CyLFClk.h"
+#include "buzzerFuncs.h"
+
 
 /*[]*/
 
