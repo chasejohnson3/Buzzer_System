@@ -33,8 +33,10 @@ int main(void)
     Buzzer_2_Write(0);
     for (;;)
     {
-        readBuzzers();
-        if(!Reset_Read())
+        while(Reset_Read())
+        {
+        }
+        
         {
             LCD_Char_1_ClearDisplay();
             testBuzzers();
@@ -47,7 +49,15 @@ int main(void)
 //            CyDelay(400);
 //            Buzzer_1_Write(0);
         }
-        LCD_Char_1_PrintString("Ready to Play");
+        LCD_Char_1_ClearDisplay();
+        LCD_Char_1_PrintString("Ready to play");
+        while(1==1)
+        {
+            readBuzzers();
+        }
+            
+        
+        
        
         /*if (Button_Read())
         {

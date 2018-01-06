@@ -11,6 +11,92 @@
 <CyGuid_f44455c5-3770-4452-b988-0a7a7ff46256 type_name="CyDesigner.Common.ProjMgmt.Model.CyConfigDependencies" version="1">
 <dependency_info name="c9323d49-d323-40b8-9b59-cc008d68a989@Debug@CortexM0" xml_contents_version="2">
 <CyGuid_1173175f-1b9b-4ad4-a065-754a48a27021 type_name="CyDesigner.Common.Base.CyFileDeps" version="1">
+<file name=".\CortexM0\ARM_GCC_541\Debug\main.o">
+<dep name=".\Generated_Source\PSoC4\Button_1.h" />
+<dep name=".\Generated_Source\PSoC4\Button_1_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\Button_2.h" />
+<dep name=".\Generated_Source\PSoC4\Button_2_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\Button_3.h" />
+<dep name=".\Generated_Source\PSoC4\Button_3_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\Button_4.h" />
+<dep name=".\Generated_Source\PSoC4\Button_4_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\Buzzer_1.h" />
+<dep name=".\Generated_Source\PSoC4\Buzzer_1_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\Buzzer_2.h" />
+<dep name=".\Generated_Source\PSoC4\Buzzer_2_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\CyFlash.h" />
+<dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
+<dep name=".\Generated_Source\PSoC4\CyLib.h" />
+<dep name=".\Generated_Source\PSoC4\LCD_Char_1.h" />
+<dep name=".\Generated_Source\PSoC4\LCD_Char_1_LCDPort.h" />
+<dep name=".\Generated_Source\PSoC4\LCD_Char_1_LCDPort_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\LED_1.h" />
+<dep name=".\Generated_Source\PSoC4\LED_1_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\LED_2.h" />
+<dep name=".\Generated_Source\PSoC4\LED_2_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\LED_3.h" />
+<dep name=".\Generated_Source\PSoC4\LED_3_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\LED_4.h" />
+<dep name=".\Generated_Source\PSoC4\LED_4_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\Reset.h" />
+<dep name=".\Generated_Source\PSoC4\Reset_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\cmsis_armcc.h" />
+<dep name=".\Generated_Source\PSoC4\cmsis_compiler.h" />
+<dep name=".\Generated_Source\PSoC4\cmsis_gcc.h" />
+<dep name=".\Generated_Source\PSoC4\core_cm0.h" />
+<dep name=".\Generated_Source\PSoC4\core_cm0_psoc4.h" />
+<dep name=".\Generated_Source\PSoC4\cyPm.h" />
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cydisabledsheets.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter_cfg.h" />
+<dep name=".\Generated_Source\PSoC4\cypins.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+<dep name=".\Generated_Source\PSoC4\project.h" />
+<dep name=".\main.c" />
+</file>
+<file name=".\Generated_Source\PSoC4\Button_1.h" />
+<file name=".\Generated_Source\PSoC4\Button_1_aliases.h" />
+<file name=".\Generated_Source\PSoC4\Button_2.h" />
+<file name=".\Generated_Source\PSoC4\Button_2_aliases.h" />
+<file name=".\Generated_Source\PSoC4\Button_3.h" />
+<file name=".\Generated_Source\PSoC4\Button_3_aliases.h" />
+<file name=".\Generated_Source\PSoC4\Button_4.h" />
+<file name=".\Generated_Source\PSoC4\Button_4_aliases.h" />
+<file name=".\Generated_Source\PSoC4\Buzzer_1.h" />
+<file name=".\Generated_Source\PSoC4\Buzzer_1_aliases.h" />
+<file name=".\Generated_Source\PSoC4\Buzzer_2.h" />
+<file name=".\Generated_Source\PSoC4\Buzzer_2_aliases.h" />
+<file name=".\Generated_Source\PSoC4\CyFlash.h" />
+<file name=".\Generated_Source\PSoC4\CyLFClk.h" />
+<file name=".\Generated_Source\PSoC4\CyLib.h" />
+<file name=".\Generated_Source\PSoC4\LCD_Char_1.h" />
+<file name=".\Generated_Source\PSoC4\LCD_Char_1_LCDPort.h" />
+<file name=".\Generated_Source\PSoC4\LCD_Char_1_LCDPort_aliases.h" />
+<file name=".\Generated_Source\PSoC4\LED_1.h" />
+<file name=".\Generated_Source\PSoC4\LED_1_aliases.h" />
+<file name=".\Generated_Source\PSoC4\LED_2.h" />
+<file name=".\Generated_Source\PSoC4\LED_2_aliases.h" />
+<file name=".\Generated_Source\PSoC4\LED_3.h" />
+<file name=".\Generated_Source\PSoC4\LED_3_aliases.h" />
+<file name=".\Generated_Source\PSoC4\LED_4.h" />
+<file name=".\Generated_Source\PSoC4\LED_4_aliases.h" />
+<file name=".\Generated_Source\PSoC4\Reset.h" />
+<file name=".\Generated_Source\PSoC4\Reset_aliases.h" />
+<file name=".\Generated_Source\PSoC4\cmsis_armcc.h" />
+<file name=".\Generated_Source\PSoC4\cmsis_compiler.h" />
+<file name=".\Generated_Source\PSoC4\cmsis_gcc.h" />
+<file name=".\Generated_Source\PSoC4\core_cm0.h" />
+<file name=".\Generated_Source\PSoC4\core_cm0_psoc4.h" />
+<file name=".\Generated_Source\PSoC4\cyPm.h" />
+<file name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<file name=".\Generated_Source\PSoC4\cydisabledsheets.h" />
+<file name=".\Generated_Source\PSoC4\cyfitter.h" />
+<file name=".\Generated_Source\PSoC4\cyfitter_cfg.h" />
+<file name=".\Generated_Source\PSoC4\cypins.h" />
+<file name=".\Generated_Source\PSoC4\cytypes.h" />
+<file name=".\Generated_Source\PSoC4\project.h" />
+<file name=".\main.c" />
 <file name=".\CortexM0\ARM_GCC_541\Debug\buzzerFuncs.o">
 <dep name=".\Generated_Source\PSoC4\Button_1.h" />
 <dep name=".\Generated_Source\PSoC4\Button_1_aliases.h" />
@@ -56,95 +142,8 @@
 <dep name=".\buzzerFuncs.c" />
 <dep name=".\buzzerFuncs.h" />
 </file>
-<file name=".\Generated_Source\PSoC4\Button_1.h" />
-<file name=".\Generated_Source\PSoC4\Button_1_aliases.h" />
-<file name=".\Generated_Source\PSoC4\Button_2.h" />
-<file name=".\Generated_Source\PSoC4\Button_2_aliases.h" />
-<file name=".\Generated_Source\PSoC4\Button_3.h" />
-<file name=".\Generated_Source\PSoC4\Button_3_aliases.h" />
-<file name=".\Generated_Source\PSoC4\Button_4.h" />
-<file name=".\Generated_Source\PSoC4\Button_4_aliases.h" />
-<file name=".\Generated_Source\PSoC4\Buzzer_1.h" />
-<file name=".\Generated_Source\PSoC4\Buzzer_1_aliases.h" />
-<file name=".\Generated_Source\PSoC4\Buzzer_2.h" />
-<file name=".\Generated_Source\PSoC4\Buzzer_2_aliases.h" />
-<file name=".\Generated_Source\PSoC4\CyFlash.h" />
-<file name=".\Generated_Source\PSoC4\CyLFClk.h" />
-<file name=".\Generated_Source\PSoC4\CyLib.h" />
-<file name=".\Generated_Source\PSoC4\LCD_Char_1.h" />
-<file name=".\Generated_Source\PSoC4\LCD_Char_1_LCDPort.h" />
-<file name=".\Generated_Source\PSoC4\LCD_Char_1_LCDPort_aliases.h" />
-<file name=".\Generated_Source\PSoC4\LED_1.h" />
-<file name=".\Generated_Source\PSoC4\LED_1_aliases.h" />
-<file name=".\Generated_Source\PSoC4\LED_2.h" />
-<file name=".\Generated_Source\PSoC4\LED_2_aliases.h" />
-<file name=".\Generated_Source\PSoC4\LED_3.h" />
-<file name=".\Generated_Source\PSoC4\LED_3_aliases.h" />
-<file name=".\Generated_Source\PSoC4\LED_4.h" />
-<file name=".\Generated_Source\PSoC4\LED_4_aliases.h" />
-<file name=".\Generated_Source\PSoC4\Reset.h" />
-<file name=".\Generated_Source\PSoC4\Reset_aliases.h" />
-<file name=".\Generated_Source\PSoC4\cmsis_armcc.h" />
-<file name=".\Generated_Source\PSoC4\cmsis_compiler.h" />
-<file name=".\Generated_Source\PSoC4\cmsis_gcc.h" />
-<file name=".\Generated_Source\PSoC4\core_cm0.h" />
-<file name=".\Generated_Source\PSoC4\core_cm0_psoc4.h" />
-<file name=".\Generated_Source\PSoC4\cyPm.h" />
-<file name=".\Generated_Source\PSoC4\cydevice_trm.h" />
-<file name=".\Generated_Source\PSoC4\cydisabledsheets.h" />
-<file name=".\Generated_Source\PSoC4\cyfitter.h" />
-<file name=".\Generated_Source\PSoC4\cyfitter_cfg.h" />
-<file name=".\Generated_Source\PSoC4\cypins.h" />
-<file name=".\Generated_Source\PSoC4\cytypes.h" />
-<file name=".\Generated_Source\PSoC4\project.h" />
 <file name=".\buzzerFuncs.c" />
 <file name=".\buzzerFuncs.h" />
-<file name=".\CortexM0\ARM_GCC_541\Debug\main.o">
-<dep name=".\Generated_Source\PSoC4\Button_1.h" />
-<dep name=".\Generated_Source\PSoC4\Button_1_aliases.h" />
-<dep name=".\Generated_Source\PSoC4\Button_2.h" />
-<dep name=".\Generated_Source\PSoC4\Button_2_aliases.h" />
-<dep name=".\Generated_Source\PSoC4\Button_3.h" />
-<dep name=".\Generated_Source\PSoC4\Button_3_aliases.h" />
-<dep name=".\Generated_Source\PSoC4\Button_4.h" />
-<dep name=".\Generated_Source\PSoC4\Button_4_aliases.h" />
-<dep name=".\Generated_Source\PSoC4\Buzzer_1.h" />
-<dep name=".\Generated_Source\PSoC4\Buzzer_1_aliases.h" />
-<dep name=".\Generated_Source\PSoC4\Buzzer_2.h" />
-<dep name=".\Generated_Source\PSoC4\Buzzer_2_aliases.h" />
-<dep name=".\Generated_Source\PSoC4\CyFlash.h" />
-<dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
-<dep name=".\Generated_Source\PSoC4\CyLib.h" />
-<dep name=".\Generated_Source\PSoC4\LCD_Char_1.h" />
-<dep name=".\Generated_Source\PSoC4\LCD_Char_1_LCDPort.h" />
-<dep name=".\Generated_Source\PSoC4\LCD_Char_1_LCDPort_aliases.h" />
-<dep name=".\Generated_Source\PSoC4\LED_1.h" />
-<dep name=".\Generated_Source\PSoC4\LED_1_aliases.h" />
-<dep name=".\Generated_Source\PSoC4\LED_2.h" />
-<dep name=".\Generated_Source\PSoC4\LED_2_aliases.h" />
-<dep name=".\Generated_Source\PSoC4\LED_3.h" />
-<dep name=".\Generated_Source\PSoC4\LED_3_aliases.h" />
-<dep name=".\Generated_Source\PSoC4\LED_4.h" />
-<dep name=".\Generated_Source\PSoC4\LED_4_aliases.h" />
-<dep name=".\Generated_Source\PSoC4\Reset.h" />
-<dep name=".\Generated_Source\PSoC4\Reset_aliases.h" />
-<dep name=".\Generated_Source\PSoC4\cmsis_armcc.h" />
-<dep name=".\Generated_Source\PSoC4\cmsis_compiler.h" />
-<dep name=".\Generated_Source\PSoC4\cmsis_gcc.h" />
-<dep name=".\Generated_Source\PSoC4\core_cm0.h" />
-<dep name=".\Generated_Source\PSoC4\core_cm0_psoc4.h" />
-<dep name=".\Generated_Source\PSoC4\cyPm.h" />
-<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
-<dep name=".\Generated_Source\PSoC4\cydisabledsheets.h" />
-<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
-<dep name=".\Generated_Source\PSoC4\cyfitter_cfg.h" />
-<dep name=".\Generated_Source\PSoC4\cypins.h" />
-<dep name=".\Generated_Source\PSoC4\cytypes.h" />
-<dep name=".\Generated_Source\PSoC4\project.h" />
-<dep name=".\buzzerFuncs.h" />
-<dep name=".\main.c" />
-</file>
-<file name=".\main.c" />
 <file name=".\CortexM0\ARM_GCC_541\Debug\Button_1.o">
 <dep name=".\Generated_Source\PSoC4\Button_1.c" />
 <dep name=".\Generated_Source\PSoC4\Button_1.h" />
@@ -917,13 +916,20 @@
 <v>Generated_Source\PSoC4\LCD_Char_1_LCDPort.h</v>
 <v>Generated_Source\PSoC4\LCD_Char_1_LCDPort_aliases.h</v>
 <v>Generated_Source\PSoC4\LCD_Char_1_LCDPort_PM.c</v>
+<v>Generated_Source\PSoC4\Screen.c</v>
+<v>Generated_Source\PSoC4\Screen.h</v>
+<v>Generated_Source\PSoC4\Screen_PM.c</v>
+<v>Generated_Source\PSoC4\Screen_LCDPort.c</v>
+<v>Generated_Source\PSoC4\Screen_LCDPort.h</v>
+<v>Generated_Source\PSoC4\Screen_LCDPort_aliases.h</v>
+<v>Generated_Source\PSoC4\Screen_LCDPort_PM.c</v>
 </gen_list>
 <warp_dep>
 <v>C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\ieee\work\stdlogic.vif</v>
 <v>C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif</v>
 <v>C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif</v>
 </warp_dep>
-<deps_time v="131595837855653523" />
+<deps_time v="131597540068995962" />
 <top_block v="TopDesign" />
 <last_generation v="0" />
 <pdl_path v="" />
@@ -933,7 +939,7 @@
 <dataGuid v="769d31ea-68b1-4f0c-b90a-7c10a43ee563">
 <CyGuid_769d31ea-68b1-4f0c-b90a-7c10a43ee563 type_name="CyDesigner.Common.ProjMgmt.Model.CyLinkCustomData" version="1">
 <link_deps_times>
-<name_val_pair name="c9323d49-d323-40b8-9b59-cc008d68a989@Debug@CortexM0" v="131597431415426117" />
+<name_val_pair name="c9323d49-d323-40b8-9b59-cc008d68a989@Debug@CortexM0" v="131597546424426470" />
 </link_deps_times>
 </CyGuid_769d31ea-68b1-4f0c-b90a-7c10a43ee563>
 </dataGuid>

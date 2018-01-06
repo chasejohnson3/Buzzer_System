@@ -7,8 +7,8 @@
 <wrkspc_folders />
 <files />
 <projects>
-<v>.\Input_Test.cydsn\Input_Test.cyprj</v>
 <v>.\BuzzerProject.cydsn\BuzzerProject.cyprj</v>
+<v>.\Input_Test.cydsn\Input_Test.cyprj</v>
 </projects>
 <workspace_id v="a19a7832-3d06-4509-ab6a-5de769d3651d" />
 <WriteAppVersionLastSavedWith v="4.1.0.2686" />
