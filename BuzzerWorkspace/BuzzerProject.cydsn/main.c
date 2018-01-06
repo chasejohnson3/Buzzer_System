@@ -21,9 +21,10 @@ int main(void)
     /* Place your initialization/startup code here (e.g. MyInst_Start()) */
     LCD_Char_1_Position(0u, 0u);
 //    LCD_Char_1_
-    LCD_Char_1_PrintString("Science Bowl2000"); 
+    LCD_Char_1_PrintString("Science Bowl!"); 
     LCD_Char_1_Position(1u,0u);
     LCD_Char_1_PrintString("Press Reset"); 
+//    LCD_Char_1_PrintString("I love Momma J");
     LED_1_Write(0);
     LED_2_Write(0);
     LED_3_Write(0);
@@ -32,7 +33,19 @@ int main(void)
     Buzzer_2_Write(0);
     for (;;)
     {
-        gamePlay();
+        readBuzzers();
+        if(!Reset_Read())
+        {
+            LCD_Char_1_ClearDisplay();
+            testBuzzers();
+//            LCD_Char_1_32_BIT_SHIFT;
+//            LCD_Char_1_CLEAR_DISPLAY;
+//            LED_1_Write(1);
+////            buttonOn = 1;
+//            Buzzer_1_Write(1);
+//            CyDelay(400);
+//            Buzzer_1_Write(0);
+        }
         /*if (Button_Read())
         {
             LED_Write(1);
