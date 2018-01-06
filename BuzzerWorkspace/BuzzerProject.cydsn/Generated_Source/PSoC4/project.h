@@ -50,8 +50,6 @@
 #include "cytypes.h"
 #include "cypins.h"
 #include "CyLFClk.h"
-#include "buzzerFuncs.h"
-
 
 /*[]*/
 

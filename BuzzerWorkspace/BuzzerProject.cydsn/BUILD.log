@@ -1,4 +1,4 @@
---------------- Build Started: 01/06/2018 15:02:05 Project: BuzzerProject, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
+--------------- Build Started: 01/06/2018 16:01:32 Project: BuzzerProject, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
 The code generation step is up to date.
 arm-none-eabi-gcc.exe -c buzzerFuncs.c -o .\CortexM0\ARM_GCC_541\Debug\buzzerFuncs.o -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/buzzerFuncs.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og
 buzzerFuncs.c: In function 'testBuzzers':
@@ -21,4 +21,4 @@ cyelftool.exe -C "C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_Syste
 cyelftool.exe -S "C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\CortexM0\ARM_GCC_541\Debug\BuzzerProject.elf"
 Flash used: 3344 of 32768 bytes (10.2%).
 SRAM used: 1544 of 4096 bytes (37.7%). Stack: 1024 bytes. Heap: 128 bytes.
---------------- Build Succeeded: 01/06/2018 15:02:07 ---------------
+--------------- Build Succeeded: 01/06/2018 16:01:33 ---------------

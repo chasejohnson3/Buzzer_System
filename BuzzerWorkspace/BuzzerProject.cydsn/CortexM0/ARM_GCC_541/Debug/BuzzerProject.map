@@ -484,14 +484,14 @@ END GROUP
                 0x0000014c                . = MAX (., 0x100)
  *(.text .text.* .gnu.linkonce.t.*)
  .text          0x0000014c       0x60 c:/program files (x86)/cypress/psoc creator/4.1/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtbegin.o
- .text.main     0x000001ac       0x68 .\CortexM0\ARM_GCC_541\Debug\main.o
+ .text.main     0x000001ac       0x78 .\CortexM0\ARM_GCC_541\Debug\main.o
                 0x000001ac                main
  .text.readBuzzers
-                0x00000214      0x18c .\CortexM0\ARM_GCC_541\Debug\buzzerFuncs.o
-                0x00000214                readBuzzers
+                0x00000224      0x18c .\CortexM0\ARM_GCC_541\Debug\buzzerFuncs.o
+                0x00000224                readBuzzers
  .text.testBuzzers
-                0x000003a0       0x74 .\CortexM0\ARM_GCC_541\Debug\buzzerFuncs.o
-                0x000003a0                testBuzzers
+                0x000003b0       0x64 .\CortexM0\ARM_GCC_541\Debug\buzzerFuncs.o
+                0x000003b0                testBuzzers
  .text.CYMEMZERO
                 0x00000414        0xc .\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o
  .text.IntDefaultHandler
@@ -638,10 +638,11 @@ END GROUP
 .rodata         0x00000bb0       0xe0
  *(.rodata .rodata.* .gnu.linkonce.r.*)
  .rodata.str1.4
-                0x00000bb0       0x1c .\CortexM0\ARM_GCC_541\Debug\main.o
+                0x00000bb0       0x2a .\CortexM0\ARM_GCC_541\Debug\main.o
+ *fill*         0x00000bda        0x2 
  .rodata.str1.4
-                0x00000bcc       0x50 .\CortexM0\ARM_GCC_541\Debug\buzzerFuncs.o
-                                 0x4f (size before relaxing)
+                0x00000bdc       0x40 .\CortexM0\ARM_GCC_541\Debug\buzzerFuncs.o
+                                 0x3e (size before relaxing)
  .rodata        0x00000c1c        0xc .\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o
  .rodata        0x00000c28       0x2e .\CortexM0\ARM_GCC_541\Debug\BuzzerProject.a(CyLib.o)
                 0x00000c28                cyImoFreqMhz2Reg
@@ -866,28 +867,28 @@ END GROUP
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000     0x3f68
+.debug_info     0x00000000     0x3f72
  *(.debug_info .gnu.linkonce.wi.*)
- .debug_info    0x00000000      0x26f .\CortexM0\ARM_GCC_541\Debug\main.o
- .debug_info    0x0000026f      0x461 .\CortexM0\ARM_GCC_541\Debug\buzzerFuncs.o
- .debug_info    0x000006d0      0x278 .\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o
- .debug_info    0x00000948       0xf8 .\CortexM0\ARM_GCC_541\Debug\cymetadata.o
- .debug_info    0x00000a40      0x3a2 .\CortexM0\ARM_GCC_541\Debug\Cm0Start.o
- .debug_info    0x00000de2      0xafc .\CortexM0\ARM_GCC_541\Debug\BuzzerProject.a(CyLib.o)
- .debug_info    0x000018de      0xcfe .\CortexM0\ARM_GCC_541\Debug\BuzzerProject.a(CyLFClk.o)
- .debug_info    0x000025dc      0x19b .\CortexM0\ARM_GCC_541\Debug\BuzzerProject.a(LED_1.o)
- .debug_info    0x00002777      0x19d .\CortexM0\ARM_GCC_541\Debug\BuzzerProject.a(Button_1.o)
- .debug_info    0x00002914      0x19d .\CortexM0\ARM_GCC_541\Debug\BuzzerProject.a(LED_2.o)
- .debug_info    0x00002ab1      0x19b .\CortexM0\ARM_GCC_541\Debug\BuzzerProject.a(Button_2.o)
- .debug_info    0x00002c4c      0x19d .\CortexM0\ARM_GCC_541\Debug\BuzzerProject.a(LED_3.o)
- .debug_info    0x00002de9      0x19d .\CortexM0\ARM_GCC_541\Debug\BuzzerProject.a(Button_3.o)
- .debug_info    0x00002f86      0x19d .\CortexM0\ARM_GCC_541\Debug\BuzzerProject.a(LED_4.o)
- .debug_info    0x00003123      0x19d .\CortexM0\ARM_GCC_541\Debug\BuzzerProject.a(Button_4.o)
- .debug_info    0x000032c0      0x19b .\CortexM0\ARM_GCC_541\Debug\BuzzerProject.a(Reset.o)
- .debug_info    0x0000345b      0x19d .\CortexM0\ARM_GCC_541\Debug\BuzzerProject.a(Buzzer_1.o)
- .debug_info    0x000035f8      0x19d .\CortexM0\ARM_GCC_541\Debug\BuzzerProject.a(Buzzer_2.o)
- .debug_info    0x00003795      0x721 .\CortexM0\ARM_GCC_541\Debug\BuzzerProject.a(LCD_Char_1.o)
- .debug_info    0x00003eb6       0xb2 .\CortexM0\ARM_GCC_541\Debug\BuzzerProject.a(CyBootAsmGnu.o)
+ .debug_info    0x00000000      0x295 .\CortexM0\ARM_GCC_541\Debug\main.o
+ .debug_info    0x00000295      0x445 .\CortexM0\ARM_GCC_541\Debug\buzzerFuncs.o
+ .debug_info    0x000006da      0x278 .\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .debug_info    0x00000952       0xf8 .\CortexM0\ARM_GCC_541\Debug\cymetadata.o
+ .debug_info    0x00000a4a      0x3a2 .\CortexM0\ARM_GCC_541\Debug\Cm0Start.o
+ .debug_info    0x00000dec      0xafc .\CortexM0\ARM_GCC_541\Debug\BuzzerProject.a(CyLib.o)
+ .debug_info    0x000018e8      0xcfe .\CortexM0\ARM_GCC_541\Debug\BuzzerProject.a(CyLFClk.o)
+ .debug_info    0x000025e6      0x19b .\CortexM0\ARM_GCC_541\Debug\BuzzerProject.a(LED_1.o)
+ .debug_info    0x00002781      0x19d .\CortexM0\ARM_GCC_541\Debug\BuzzerProject.a(Button_1.o)
+ .debug_info    0x0000291e      0x19d .\CortexM0\ARM_GCC_541\Debug\BuzzerProject.a(LED_2.o)
+ .debug_info    0x00002abb      0x19b .\CortexM0\ARM_GCC_541\Debug\BuzzerProject.a(Button_2.o)
+ .debug_info    0x00002c56      0x19d .\CortexM0\ARM_GCC_541\Debug\BuzzerProject.a(LED_3.o)
+ .debug_info    0x00002df3      0x19d .\CortexM0\ARM_GCC_541\Debug\BuzzerProject.a(Button_3.o)
+ .debug_info    0x00002f90      0x19d .\CortexM0\ARM_GCC_541\Debug\BuzzerProject.a(LED_4.o)
+ .debug_info    0x0000312d      0x19d .\CortexM0\ARM_GCC_541\Debug\BuzzerProject.a(Button_4.o)
+ .debug_info    0x000032ca      0x19b .\CortexM0\ARM_GCC_541\Debug\BuzzerProject.a(Reset.o)
+ .debug_info    0x00003465      0x19d .\CortexM0\ARM_GCC_541\Debug\BuzzerProject.a(Buzzer_1.o)
+ .debug_info    0x00003602      0x19d .\CortexM0\ARM_GCC_541\Debug\BuzzerProject.a(Buzzer_2.o)
+ .debug_info    0x0000379f      0x721 .\CortexM0\ARM_GCC_541\Debug\BuzzerProject.a(LCD_Char_1.o)
+ .debug_info    0x00003ec0       0xb2 .\CortexM0\ARM_GCC_541\Debug\BuzzerProject.a(CyBootAsmGnu.o)
 
 .debug_abbrev   0x00000000     0x1313
  *(.debug_abbrev)
@@ -914,8 +915,8 @@ END GROUP
 
 .debug_line     0x00000000     0x1a6d
  *(.debug_line)
- .debug_line    0x00000000       0xc0 .\CortexM0\ARM_GCC_541\Debug\main.o
- .debug_line    0x000000c0      0x1ba .\CortexM0\ARM_GCC_541\Debug\buzzerFuncs.o
+ .debug_line    0x00000000       0xc2 .\CortexM0\ARM_GCC_541\Debug\main.o
+ .debug_line    0x000000c2      0x1b8 .\CortexM0\ARM_GCC_541\Debug\buzzerFuncs.o
  .debug_line    0x0000027a      0x134 .\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o
  .debug_line    0x000003ae      0x141 .\CortexM0\ARM_GCC_541\Debug\cymetadata.o
  .debug_line    0x000004ef      0x235 .\CortexM0\ARM_GCC_541\Debug\Cm0Start.o
