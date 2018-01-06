@@ -15,11 +15,7 @@
 #include "buzzerFuncs.h"
 int buttonOn = 0;
 
-//int pins[4];
-
-
-
-int readBuzzers()
+void readBuzzers()
 {
         if (!Button_1_Read() && !buttonOn)
         {
@@ -38,9 +34,8 @@ int readBuzzers()
                 }
             }
             Buzzer_1_Write(0);
-            return 1;
         }
-        if (Button_2_Read() && !buttonOn)
+        if (!Button_2_Read() && !buttonOn)
         {
             LED_2_Write(1);
             buttonOn = 1;
@@ -57,7 +52,6 @@ int readBuzzers()
                 }
             }
             Buzzer_1_Write(0);
-            return 2;
         }
         if (!Button_3_Read() && !buttonOn)
         {
@@ -76,7 +70,6 @@ int readBuzzers()
                 }
             }
             Buzzer_2_Write(0);
-            return 3;
         }
         if (!Button_4_Read() && !buttonOn)
         {
@@ -96,7 +89,6 @@ int readBuzzers()
             }
 //            CyDelay(400);
             Buzzer_2_Write(0);
-            return 4;
         }
         
         if (!Reset_Read())
@@ -106,13 +98,8 @@ int readBuzzers()
             LED_3_Write(0);
             LED_4_Write(0);
             buttonOn = 0;
-            return 9;
-        }
-        return 0; // Indicates nothing has been pressed
+        }    
 }
-
-
-
 
 void testBuzzers()
 {
@@ -123,38 +110,34 @@ void testBuzzers()
     LCD_Char_1_ClearDisplay();
     LCD_Char_1_PrintString("Test Buzzer 1");
 //    readBuzzers();
-//    while (Button_1_Read())
-    while (readBuzzers() != 1)
+    while (Button_1_Read())
     {
         // Wait for the user to press buzzer 1
-//        readBuzzers();
+        readBuzzers();
     }
     
     LCD_Char_1_ClearDisplay();
     LCD_Char_1_PrintString("Test Buzzer 2");
 //    readBuzzers();
-//    while (!Button_2_Read())
-    while (readBuzzers() != 2)
+    while (Button_2_Read())
     {
         // Wait for the user to press buzzer 2
-//        readBuzzers();
+        readBuzzers();
     }
     
     LCD_Char_1_ClearDisplay();
     LCD_Char_1_PrintString("Test Buzzer 3");
     
-//    while (Button_3_Read())
-    while(readBuzzers() != 3)
+    while (Button_3_Read())
     {
         // Wait for the user to press buzzer 3
-//        readBuzzers();
+        readBuzzers();
     }
     
     LCD_Char_1_ClearDisplay();
     LCD_Char_1_PrintString("Test Buzzer 4");
 //    readBuzzers();
-//    while (Button_4_Read())
-    while(readBuzzers() != 4)
+    while (Button_4_Read())
     {
         // Wait for the user to press buzzer 4
         readBuzzers();
