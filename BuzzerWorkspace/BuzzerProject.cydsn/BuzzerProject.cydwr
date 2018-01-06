@@ -15,6 +15,7 @@
       <Data key="4d9b48e6-f878-46c1-b692-92a2c8b36b73" value="Reset" />
       <Data key="8d318d8b-cf7b-4b6b-b02c-ab1c5c49d0ba" value="ButtonIn" />
       <Data key="27e9f130-712e-43d7-a677-ccf06fd7c9ee" value="Button" />
+      <Data key="57a516db-12c3-47d2-8dc2-0b350eae6102/ed092b9b-d398-4703-be89-cebf998501f6" value="Screen_LCDPort" />
       <Data key="608d52e2-0db5-4276-b589-6c2658941916/ed092b9b-d398-4703-be89-cebf998501f6" value="LCD_Char_1_LCDPort" />
       <Data key="931e5718-60d5-4cb5-9f0f-400bdbadd218" value="Buzzer_2" />
       <Data key="8697a5cf-8016-4097-a4db-f957702e4f15" value="Button" />
@@ -1259,7 +1260,7 @@
         <Data key="Port Format" value="0,7" />
       </Group>
     </Group>
-    <Group key="608d52e2-0db5-4276-b589-6c2658941916/ed092b9b-d398-4703-be89-cebf998501f6">
+    <Group key="57a516db-12c3-47d2-8dc2-0b350eae6102/ed092b9b-d398-4703-be89-cebf998501f6">
       <Group key="0">
         <Data key="Port Format" value="2,0" />
       </Group>
@@ -1327,7 +1328,17 @@
         <Data key="Port Format" value="0,6" />
       </Group>
     </Group>
-    <Group key="UnAssigned Pins" />
+    <Group key="UnAssigned Pins">
+      <Group key="608d52e2-0db5-4276-b589-6c2658941916/ed092b9b-d398-4703-be89-cebf998501f6">
+        <Data key="0" value="131597468084980891" />
+        <Data key="1" value="131597468084980891" />
+        <Data key="2" value="131597468084980891" />
+        <Data key="3" value="131597468084980891" />
+        <Data key="4" value="131597468084980891" />
+        <Data key="5" value="131597468084980891" />
+        <Data key="6" value="131597468084980891" />
+      </Group>
+    </Group>
   </Group>
   <Group key="PlaceDir">
     <Data key="count" value="0" />

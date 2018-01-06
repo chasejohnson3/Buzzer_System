@@ -157,7 +157,7 @@ void testBuzzers()
     while(readBuzzers() != 4)
     {
         // Wait for the user to press buzzer 4
-//        readBuzzers();
+        readBuzzers();
     }
     LCD_Char_1_ClearDisplay();
     LCD_Char_1_PrintString("Buzzers Tested");

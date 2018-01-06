@@ -38,6 +38,7 @@ int main(void)
         {
             LCD_Char_1_ClearDisplay();
             testBuzzers();
+            
 //            LCD_Char_1_32_BIT_SHIFT;
 //            LCD_Char_1_CLEAR_DISPLAY;
 //            LED_1_Write(1);
@@ -46,6 +47,8 @@ int main(void)
 //            CyDelay(400);
 //            Buzzer_1_Write(0);
         }
+        LCD_Char_1_PrintString("Ready to Play");
+       
         /*if (Button_Read())
         {
             LED_Write(1);
