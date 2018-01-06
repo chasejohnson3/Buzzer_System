@@ -1,13 +1,13 @@
-Loading plugins phase: Elapsed time ==> 0s.131ms
+Loading plugins phase: Elapsed time ==> 0s.133ms
 <CYPRESSTAG name="CyDsfit arguments...">
 cydsfit arguments: -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\BuzzerProject.cyprj -d CY8C4245AXI-483 -s C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\Generated_Source\PSoC4 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE
 </CYPRESSTAG>
 <CYPRESSTAG name="Design elaboration results...">
 </CYPRESSTAG>
-Elaboration phase: Elapsed time ==> 0s.989ms
+Elaboration phase: Elapsed time ==> 1s.025ms
 <CYPRESSTAG name="HDL generation results...">
 </CYPRESSTAG>
-HDL generation phase: Elapsed time ==> 0s.034ms
+HDL generation phase: Elapsed time ==> 0s.033ms
 <CYPRESSTAG name="Synthesis results...">
 
      | | | | | | |
@@ -41,7 +41,7 @@ Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\User\
 ======================================================================
 
 vlogfe V6.3 IR 41:  Verilog parser
-Sat Jan 06 15:55:25 2018
+Sat Jan 06 16:21:01 2018
 
 
 ======================================================================
@@ -51,7 +51,7 @@ Options  :    -yv2 -q10 BuzzerProject.v
 ======================================================================
 
 vpp V6.3 IR 41:  Verilog Pre-Processor
-Sat Jan 06 15:55:26 2018
+Sat Jan 06 16:21:01 2018
 
 
 vpp:  No errors.
@@ -80,7 +80,7 @@ Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\User\
 ======================================================================
 
 tovif V6.3 IR 41:  High-level synthesis
-Sat Jan 06 15:55:26 2018
+Sat Jan 06 16:21:02 2018
 
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\std.vhd'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\cypress.vhd'.
@@ -104,7 +104,7 @@ Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\User\
 ======================================================================
 
 topld V6.3 IR 41:  Synthesis and optimization
-Sat Jan 06 15:55:26 2018
+Sat Jan 06 16:21:02 2018
 
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\std.vhd'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\cypress.vhd'.
@@ -190,10 +190,10 @@ CYPRESS_DIR    : C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\wa
 Warp Program   : C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\bin\warp.exe
 Warp Arguments : -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya "-.fftprj=C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\BuzzerProject.cyprj" -dcpsoc3 BuzzerProject.v -verilog
 </CYPRESSTAG>
-Warp synthesis phase: Elapsed time ==> 1s.884ms
+Warp synthesis phase: Elapsed time ==> 0s.457ms
 <CYPRESSTAG name="Fitter results...">
 <CYPRESSTAG name="Fitter startup details...">
-cyp3fit: V4.1.0.2686, Family: PSoC3, Started at: Saturday, 06 January 2018 15:55:26
+cyp3fit: V4.1.0.2686, Family: PSoC3, Started at: Saturday, 06 January 2018 16:21:02
 Options: -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\BuzzerProject.cyprj -d CY8C4245AXI-483 BuzzerProject.v -verilog
 </CYPRESSTAG>
 <CYPRESSTAG name="Design parsing">
@@ -983,8 +983,8 @@ DAC                           :      :      :      :
   7-bit IDAC                  :    0 :    1 :    1 :  0.00 %
   8-bit IDAC                  :    0 :    1 :    1 :  0.00 %
 </CYPRESSTAG>
-Technology Mapping: Elapsed time ==> 0s.039ms
-Tech Mapping phase: Elapsed time ==> 0s.056ms
+Technology Mapping: Elapsed time ==> 0s.032ms
+Tech Mapping phase: Elapsed time ==> 0s.057ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Analog Placement">
 <CYPRESSTAG name="FFB & IO Pre Placement">
@@ -1015,15 +1015,15 @@ ClockGenBlock                       : CLK_GEN_[FFB(CLK_GEN,0)]
 </CYPRESSTAG>
 </CYPRESSTAG>
 <CYPRESSTAG name="Real Analog Placement">
-Elapsed time ==> 0.1336353s
+Elapsed time ==> 0.1324513s
 </CYPRESSTAG>
-Analog Placement phase: Elapsed time ==> 0s.331ms
+Analog Placement phase: Elapsed time ==> 0s.333ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Analog Routing">
 <CYPRESSTAG name="Analog Routing">
-Route success=True, Iterations=1 Elapsed=0.0010544 secs
+Route success=True, Iterations=1 Elapsed=0.0011085 secs
 </CYPRESSTAG>
-Analog Routing phase: Elapsed time ==> 0s.000ms
+Analog Routing phase: Elapsed time ==> 0s.001ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Analog Code Generation">
 ============ Analog Final Answer Routes ============
@@ -1034,7 +1034,7 @@ Map of item to net {
 }
 Mux Info {
 }
-Analog Code Generation phase: Elapsed time ==> 0s.013ms
+Analog Code Generation phase: Elapsed time ==> 0s.012ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Digital Placement">
 <CYPRESSTAG name="Detailed placement messages">
@@ -1885,32 +1885,32 @@ Port | Pin | Fixed |      Type |       Drive Mode |                    Name | Co
 </CYPRESSTAG>
 </CYPRESSTAG>
 Digital component placer commit/Report: Elapsed time ==> 0s.018ms
-Digital Placement phase: Elapsed time ==> 0s.419ms
+Digital Placement phase: Elapsed time ==> 0s.428ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Digital Routing">
 "C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\bin/sjrouter.exe" --xml-path "C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\dev\psoc4/psoc4a/route_arch-rrg.cydata" --vh2-path "BuzzerProject_r.vh2" --pcf-path "BuzzerProject.pco" --des-name "BuzzerProject" --dsf-path "BuzzerProject.dsf" --sdc-path "BuzzerProject.sdc" --lib-path "BuzzerProject_r.lib"
 Routing successful.
-Digital Routing phase: Elapsed time ==> 0s.533ms
+Digital Routing phase: Elapsed time ==> 0s.540ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Bitstream Generation">
-Bitstream Generation phase: Elapsed time ==> 0s.122ms
+Bitstream Generation phase: Elapsed time ==> 0s.130ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Bitstream Verification">
-Bitstream Verification phase: Elapsed time ==> 0s.023ms
+Bitstream Verification phase: Elapsed time ==> 0s.020ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Static timing analysis">
 Timing report is in BuzzerProject_timing.html.
-Static timing analysis phase: Elapsed time ==> 0s.146ms
+Static timing analysis phase: Elapsed time ==> 0s.143ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Data reporting">
-Data reporting phase: Elapsed time ==> 0s.000ms
+Data reporting phase: Elapsed time ==> 0s.001ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Database update...">
-Design database save phase: Elapsed time ==> 0s.151ms
+Design database save phase: Elapsed time ==> 0s.148ms
 </CYPRESSTAG>
-cydsfit: Elapsed time ==> 1s.825ms
+cydsfit: Elapsed time ==> 1s.843ms
 </CYPRESSTAG>
-Fitter phase: Elapsed time ==> 1s.826ms
-API generation phase: Elapsed time ==> 0s.985ms
-Dependency generation phase: Elapsed time ==> 0s.012ms
+Fitter phase: Elapsed time ==> 1s.844ms
+API generation phase: Elapsed time ==> 1s.053ms
+Dependency generation phase: Elapsed time ==> 0s.008ms
 Cleanup phase: Elapsed time ==> 0s.001ms
