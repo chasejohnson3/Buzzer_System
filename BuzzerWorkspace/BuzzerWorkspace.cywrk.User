@@ -144,6 +144,41 @@
 <VisibleNodeIds>
 <v>BuzzerWorkspace</v>
 <v>BuzzerWorkspace\BuzzerProject</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\Button_1.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\Button_1_PM.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\Button_2.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\Button_2_PM.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\Button_3.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\Button_3_PM.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\Button_4.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\Button_4_PM.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\Buzzer_1.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\Buzzer_1_PM.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\Buzzer_2.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\Buzzer_2_PM.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\buzzerFuncs.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\Cm0Start.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLFClk.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\LCD_Char_1.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\LCD_Char_1_LCDPort.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\LCD_Char_1_LCDPort_PM.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\LCD_Char_1_PM.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_1.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_1_PM.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_2.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_2_PM.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_3.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -204,10 +239,10 @@
 <CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf type_name="CyDesigner.Common.ProjMgmt.GUI.CyBookmarkData" version="1">
 <indicators>
 <CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
-<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="44" DocumentName=".\BuzzerProject.cydsn\main.c" />
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="43" DocumentName=".\BuzzerProject.cydsn\main.c" />
 </CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
 <CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
-<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="46" DocumentName=".\BuzzerProject.cydsn\main.c" />
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="45" DocumentName=".\BuzzerProject.cydsn\main.c" />
 </CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
 <CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
 <CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="17" DocumentName=".\BuzzerProject.cydsn\main.c" />

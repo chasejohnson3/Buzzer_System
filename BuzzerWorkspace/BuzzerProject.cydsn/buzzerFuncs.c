@@ -15,7 +15,7 @@
 #include "buzzerFuncs.h"
 int buttonOn = 0;
 
-int readBuzzers()
+int readBuzzers(int testMode)
 {
         if (!Button_1_Read() && !buttonOn)
         {
@@ -105,7 +105,10 @@ int readBuzzers()
         
         if (!Reset_Read())
         {
-            LCD_Char_1_ClearDisplay();
+            if (!testMode)
+            {
+                LCD_Char_1_ClearDisplay();
+            }
             LED_1_Write(0);
             LED_2_Write(0);
             LED_3_Write(0);
@@ -121,7 +124,7 @@ void testBuzzers()
     LCD_Char_1_ClearDisplay();
     LCD_Char_1_PrintString("Test Buzzer 1");
 //    readBuzzers();
-    while (readBuzzers() != 1)
+    while (readBuzzers(1) != 1)
     {
         // Wait for the user to press buzzer 1
        
@@ -130,7 +133,7 @@ void testBuzzers()
     LCD_Char_1_ClearDisplay();
     LCD_Char_1_PrintString("Test Buzzer 2");
 //    readBuzzers();
-    while (readBuzzers() != 2)
+    while (readBuzzers(1) != 2)
     {
         // Wait for the user to press buzzer 2
       
@@ -139,7 +142,7 @@ void testBuzzers()
     LCD_Char_1_ClearDisplay();
     LCD_Char_1_PrintString("Test Buzzer 3");
     
-    while (readBuzzers() != 3)
+    while (readBuzzers(1) != 3)
     {
         // Wait for the user to press buzzer 3
         
@@ -148,7 +151,7 @@ void testBuzzers()
     LCD_Char_1_ClearDisplay();
     LCD_Char_1_PrintString("Test Buzzer 4");
 //    readBuzzers();
-    while (readBuzzers() != 4)
+    while (readBuzzers(1) != 4)
     {
         // Wait for the user to press buzzer 4
         

@@ -39,7 +39,6 @@ int main(void)
         }
         
         {
-            LCD_Char_1_ClearDisplay();
             testBuzzers();
             
 //            LCD_Char_1_32_BIT_SHIFT;
@@ -54,7 +53,7 @@ int main(void)
         LCD_Char_1_PrintString("Ready to play");
         while(1==1)
         {
-            readBuzzers();
+            readBuzzers(0);
         }
             
         
