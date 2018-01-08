@@ -19,6 +19,8 @@ int readBuzzers()
 {
         if (!Button_1_Read() && !buttonOn)
         {
+            LCD_Char_1_ClearDisplay();
+            LCD_Char_1_PrintString("Player 1 Buzzed");
             LED_1_Write(1);
             buttonOn = 1;
            for (int i=0; i<400; i++)
@@ -38,6 +40,8 @@ int readBuzzers()
         }
         if (Button_2_Read() && !buttonOn)
         {
+            LCD_Char_1_ClearDisplay();
+            LCD_Char_1_PrintString("Player 2 Buzzed");
             LED_2_Write(1);
             buttonOn = 1;
             for (int i=0; i<400; i++)
@@ -57,6 +61,8 @@ int readBuzzers()
         }
         if (!Button_3_Read() && !buttonOn)
         {
+            LCD_Char_1_ClearDisplay();
+            LCD_Char_1_PrintString("Player 3 Buzzed");
             LED_3_Write(1);
             buttonOn = 1;
             for (int i=0; i<400; i++)
@@ -76,6 +82,8 @@ int readBuzzers()
         }
         if (!Button_4_Read() && !buttonOn)
         {
+            LCD_Char_1_ClearDisplay();
+            LCD_Char_1_PrintString("Player 4 Buzzed");
             LED_4_Write(1);
             buttonOn = 1;
             for (int i=0; i<400; i++)
@@ -97,6 +105,7 @@ int readBuzzers()
         
         if (!Reset_Read())
         {
+            LCD_Char_1_ClearDisplay();
             LED_1_Write(0);
             LED_2_Write(0);
             LED_3_Write(0);

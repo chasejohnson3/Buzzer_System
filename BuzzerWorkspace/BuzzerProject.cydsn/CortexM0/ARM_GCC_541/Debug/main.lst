@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\User\AppData\Local\Temp\cczO9Qtf.s 			page 1
+ARM GAS  C:\Users\User\AppData\Local\Temp\cczvYTgC.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\cczO9Qtf.s 			page 1
   39              	@ 16 "main.c" 1
   40 0002 62B6     		CPSIE   i
   41              	@ 0 "" 2
-ARM GAS  C:\Users\User\AppData\Local\Temp\cczO9Qtf.s 			page 2
+ARM GAS  C:\Users\User\AppData\Local\Temp\cczvYTgC.s 			page 2
 
 
   17:main.c        ****     LCD_Char_1_Start();
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\cczO9Qtf.s 			page 1
   32:main.c        ****     Buzzer_1_Write(0);
   81              		.loc 1 32 0
   82 003c 0020     		movs	r0, #0
-ARM GAS  C:\Users\User\AppData\Local\Temp\cczO9Qtf.s 			page 3
+ARM GAS  C:\Users\User\AppData\Local\Temp\cczvYTgC.s 			page 3
 
 
   83 003e FFF7FEFF 		bl	Buzzer_1_Write
@@ -139,48 +139,49 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\cczO9Qtf.s 			page 1
   94 004e FBD1     		bne	.L2
   95              	.LBB2:
   37:main.c        ****         {
-  38:main.c        ****         }
-  39:main.c        ****         
-  40:main.c        ****         {
-  41:main.c        ****             LCD_Char_1_ClearDisplay();
-  96              		.loc 1 41 0
+  38:main.c        ****             // Wait until user presses reset
+  39:main.c        ****         }
+  40:main.c        ****         
+  41:main.c        ****         {
+  42:main.c        ****             LCD_Char_1_ClearDisplay();
+  96              		.loc 1 42 0
   97 0050 0130     		adds	r0, r0, #1
   98 0052 FFF7FEFF 		bl	LCD_Char_1_WriteControl
   99              	.LVL12:
-  42:main.c        ****             testBuzzers();
- 100              		.loc 1 42 0
+  43:main.c        ****             testBuzzers();
+ 100              		.loc 1 43 0
  101 0056 FFF7FEFF 		bl	testBuzzers
  102              	.LVL13:
  103              	.LBE2:
-  43:main.c        ****             
-  44:main.c        **** //            LCD_Char_1_32_BIT_SHIFT;
-  45:main.c        **** //            LCD_Char_1_CLEAR_DISPLAY;
-  46:main.c        **** //            LED_1_Write(1);
-  47:main.c        **** ////            buttonOn = 1;
-  48:main.c        **** //            Buzzer_1_Write(1);
-  49:main.c        **** //            CyDelay(400);
-  50:main.c        **** //            Buzzer_1_Write(0);
-  51:main.c        ****         }
-  52:main.c        ****         LCD_Char_1_ClearDisplay();
- 104              		.loc 1 52 0
+  44:main.c        ****             
+  45:main.c        **** //            LCD_Char_1_32_BIT_SHIFT;
+  46:main.c        **** //            LCD_Char_1_CLEAR_DISPLAY;
+  47:main.c        **** //            LED_1_Write(1);
+  48:main.c        **** ////            buttonOn = 1;
+  49:main.c        **** //            Buzzer_1_Write(1);
+  50:main.c        **** //            CyDelay(400);
+  51:main.c        **** //            Buzzer_1_Write(0);
+  52:main.c        ****         }
+  53:main.c        ****         LCD_Char_1_ClearDisplay();
+ 104              		.loc 1 53 0
  105 005a 0120     		movs	r0, #1
  106 005c FFF7FEFF 		bl	LCD_Char_1_WriteControl
  107              	.LVL14:
-  53:main.c        ****         LCD_Char_1_PrintString("Ready to play");
- 108              		.loc 1 53 0
+  54:main.c        ****         LCD_Char_1_PrintString("Ready to play");
+ 108              		.loc 1 54 0
  109 0060 0448     		ldr	r0, .L4+8
  110 0062 FFF7FEFF 		bl	LCD_Char_1_PrintString
  111              	.LVL15:
  112              	.L3:
  113              	.LBB3:
-  54:main.c        ****         while(1==1)
-  55:main.c        ****         {
-  56:main.c        ****             readBuzzers();
- 114              		.loc 1 56 0 discriminator 1
+  55:main.c        ****         while(1==1)
+  56:main.c        ****         {
+  57:main.c        ****             readBuzzers();
+ 114              		.loc 1 57 0 discriminator 1
+ARM GAS  C:\Users\User\AppData\Local\Temp\cczvYTgC.s 			page 4
+
+
  115 0066 FFF7FEFF 		bl	readBuzzers
-ARM GAS  C:\Users\User\AppData\Local\Temp\cczO9Qtf.s 			page 4
-
-
  116              	.LVL16:
  117 006a FCE7     		b	.L3
  118              	.L5:
@@ -237,10 +238,10 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\cczO9Qtf.s 			page 1
  161 0025 02       		.uleb128 0x2
  162 0026 01       		.byte	0x1
  163 0027 06       		.byte	0x6
+ARM GAS  C:\Users\User\AppData\Local\Temp\cczvYTgC.s 			page 5
+
+
  164 0028 56020000 		.4byte	.LASF0
-ARM GAS  C:\Users\User\AppData\Local\Temp\cczO9Qtf.s 			page 5
-
-
  165 002c 02       		.uleb128 0x2
  166 002d 01       		.byte	0x1
  167 002e 08       		.byte	0x8
@@ -297,10 +298,10 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\cczO9Qtf.s 			page 1
  218 0088 08       		.byte	0x8
  219 0089 04       		.byte	0x4
  220 008a 4A020000 		.4byte	.LASF13
+ARM GAS  C:\Users\User\AppData\Local\Temp\cczvYTgC.s 			page 6
+
+
  221 008e 04       		.uleb128 0x4
-ARM GAS  C:\Users\User\AppData\Local\Temp\cczO9Qtf.s 			page 6
-
-
  222 008f 20010000 		.4byte	.LASF30
  223 0093 01       		.byte	0x1
  224 0094 0E       		.byte	0xe
@@ -317,7 +318,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\cczO9Qtf.s 			page 1
  235 00b4 06       		.uleb128 0x6
  236 00b5 FF000000 		.4byte	.LASF14
  237 00b9 01       		.byte	0x1
- 238 00ba 2A       		.byte	0x2a
+ 238 00ba 2B       		.byte	0x2b
  239 00bb 5D000000 		.4byte	0x5d
  240 00bf C5000000 		.4byte	0xc5
  241 00c3 07       		.uleb128 0x7
@@ -336,7 +337,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\cczO9Qtf.s 			page 1
  254 00e5 06       		.uleb128 0x6
  255 00e6 6A000000 		.4byte	.LASF15
  256 00ea 01       		.byte	0x1
- 257 00eb 38       		.byte	0x38
+ 257 00eb 39       		.byte	0x39
  258 00ec 5D000000 		.4byte	0x5d
  259 00f0 F6000000 		.4byte	0xf6
  260 00f4 07       		.uleb128 0x7
@@ -357,10 +358,10 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\cczO9Qtf.s 			page 1
  275 0118 50       		.byte	0x50
  276 0119 01       		.uleb128 0x1
  277 011a 30       		.byte	0x30
+ARM GAS  C:\Users\User\AppData\Local\Temp\cczvYTgC.s 			page 7
+
+
  278 011b 0A       		.uleb128 0xa
-ARM GAS  C:\Users\User\AppData\Local\Temp\cczO9Qtf.s 			page 7
-
-
  279 011c 01       		.uleb128 0x1
  280 011d 51       		.byte	0x51
  281 011e 01       		.uleb128 0x1
@@ -417,10 +418,10 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\cczO9Qtf.s 			page 1
  332 017b 30000000 		.4byte	.LVL6
  333 017f 56020000 		.4byte	0x256
  334 0183 8D010000 		.4byte	0x18d
+ARM GAS  C:\Users\User\AppData\Local\Temp\cczvYTgC.s 			page 8
+
+
  335 0187 0A       		.uleb128 0xa
-ARM GAS  C:\Users\User\AppData\Local\Temp\cczO9Qtf.s 			page 8
-
-
  336 0188 01       		.uleb128 0x1
  337 0189 50       		.byte	0x50
  338 018a 01       		.uleb128 0x1
@@ -477,10 +478,10 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\cczO9Qtf.s 			page 1
  389 01f0 01       		.uleb128 0x1
  390 01f1 50       		.byte	0x50
  391 01f2 01       		.uleb128 0x1
+ARM GAS  C:\Users\User\AppData\Local\Temp\cczvYTgC.s 			page 9
+
+
  392 01f3 31       		.byte	0x31
-ARM GAS  C:\Users\User\AppData\Local\Temp\cczO9Qtf.s 			page 9
-
-
  393 01f4 00       		.byte	0
  394 01f5 0B       		.uleb128 0xb
  395 01f6 66000000 		.4byte	.LVL15
@@ -502,12 +503,12 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\cczO9Qtf.s 			page 1
  411 0215 FF000000 		.4byte	.LASF14
  412 0219 FF000000 		.4byte	.LASF14
  413 021d 01       		.byte	0x1
- 414 021e 2A       		.byte	0x2a
+ 414 021e 2B       		.byte	0x2b
  415 021f 0C       		.uleb128 0xc
  416 0220 6A000000 		.4byte	.LASF15
  417 0224 6A000000 		.4byte	.LASF15
  418 0228 01       		.byte	0x1
- 419 0229 38       		.byte	0x38
+ 419 0229 39       		.byte	0x39
  420 022a 0C       		.uleb128 0xc
  421 022b 42000000 		.4byte	.LASF17
  422 022f 42000000 		.4byte	.LASF17
@@ -537,10 +538,10 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\cczO9Qtf.s 			page 1
  446 0262 24000000 		.4byte	.LASF22
  447 0266 24000000 		.4byte	.LASF22
  448 026a 05       		.byte	0x5
+ARM GAS  C:\Users\User\AppData\Local\Temp\cczvYTgC.s 			page 10
+
+
  449 026b 33       		.byte	0x33
-ARM GAS  C:\Users\User\AppData\Local\Temp\cczO9Qtf.s 			page 10
-
-
  450 026c 0C       		.uleb128 0xc
  451 026d 30000000 		.4byte	.LASF23
  452 0271 30000000 		.4byte	.LASF23
@@ -597,10 +598,10 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\cczO9Qtf.s 			page 1
  503 001e 03       		.uleb128 0x3
  504 001f 24       		.uleb128 0x24
  505 0020 00       		.byte	0
+ARM GAS  C:\Users\User\AppData\Local\Temp\cczvYTgC.s 			page 11
+
+
  506 0021 0B       		.uleb128 0xb
-ARM GAS  C:\Users\User\AppData\Local\Temp\cczO9Qtf.s 			page 11
-
-
  507 0022 0B       		.uleb128 0xb
  508 0023 3E       		.uleb128 0x3e
  509 0024 0B       		.uleb128 0xb
@@ -657,10 +658,10 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\cczO9Qtf.s 			page 1
  560 0059 0E       		.uleb128 0xe
  561 005a 3A       		.uleb128 0x3a
  562 005b 0B       		.uleb128 0xb
+ARM GAS  C:\Users\User\AppData\Local\Temp\cczvYTgC.s 			page 12
+
+
  563 005c 3B       		.uleb128 0x3b
-ARM GAS  C:\Users\User\AppData\Local\Temp\cczO9Qtf.s 			page 12
-
-
  564 005d 0B       		.uleb128 0xb
  565 005e 49       		.uleb128 0x49
  566 005f 13       		.uleb128 0x13
@@ -717,10 +718,10 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\cczO9Qtf.s 			page 1
  617 009b 2E       		.uleb128 0x2e
  618 009c 00       		.byte	0
  619 009d 3F       		.uleb128 0x3f
+ARM GAS  C:\Users\User\AppData\Local\Temp\cczvYTgC.s 			page 13
+
+
  620 009e 19       		.uleb128 0x19
-ARM GAS  C:\Users\User\AppData\Local\Temp\cczO9Qtf.s 			page 13
-
-
  621 009f 3C       		.uleb128 0x3c
  622 00a0 19       		.uleb128 0x19
  623 00a1 6E       		.uleb128 0x6e
@@ -777,10 +778,10 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\cczO9Qtf.s 			page 1
  662 0030 4C45445F 		.ascii	"LED_4_Write\000"
  662      345F5772 
  662      69746500 
+ARM GAS  C:\Users\User\AppData\Local\Temp\cczvYTgC.s 			page 14
+
+
  663              	.LASF9:
-ARM GAS  C:\Users\User\AppData\Local\Temp\cczO9Qtf.s 			page 14
-
-
  664 003c 666C6F61 		.ascii	"float\000"
  664      7400
  665              	.LASF17:
@@ -837,10 +838,10 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\cczO9Qtf.s 			page 1
  684 0119 646F7562 		.ascii	"double\000"
  684      6C6500
  685              	.LASF30:
+ARM GAS  C:\Users\User\AppData\Local\Temp\cczvYTgC.s 			page 15
+
+
  686 0120 6D61696E 		.ascii	"main\000"
-ARM GAS  C:\Users\User\AppData\Local\Temp\cczO9Qtf.s 			page 15
-
-
  686      00
  687              	.LASF24:
  688 0125 42757A7A 		.ascii	"Buzzer_1_Write\000"
@@ -897,10 +898,10 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\cczO9Qtf.s 			page 1
  706      2E6300
  707              	.LASF11:
  708 021e 63686172 		.ascii	"char\000"
+ARM GAS  C:\Users\User\AppData\Local\Temp\cczvYTgC.s 			page 16
+
+
  708      00
-ARM GAS  C:\Users\User\AppData\Local\Temp\cczO9Qtf.s 			page 16
-
-
  709              	.LASF18:
  710 0223 4C43445F 		.ascii	"LCD_Char_1_Position\000"
  710      43686172 
