@@ -60,6 +60,38 @@
   <file name="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\codegentemp\LCD_Char_1.c" value="SOURCE_C;CortexM0;;;;LCD_Char_1" />
   <file name="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\codegentemp\LCD_Char_1.h" value="HEADER;;;;;LCD_Char_1" />
   <file name="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\codegentemp\LCD_Char_1_PM.c" value="SOURCE_C;CortexM0;;;;LCD_Char_1" />
+  <file name="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\codegentemp\LED_5.c" value="SOURCE_C;CortexM0;;;;LED_5" />
+  <file name="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\codegentemp\LED_5.h" value="HEADER;;;;;LED_5" />
+  <file name="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\codegentemp\LED_5_aliases.h" value="HEADER;;;;;LED_5" />
+  <file name="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\codegentemp\LED_5_PM.c" value="SOURCE_C;CortexM0;;;;LED_5" />
+  <file name="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\codegentemp\Button_5.c" value="SOURCE_C;CortexM0;;;;Button_5" />
+  <file name="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\codegentemp\Button_5.h" value="HEADER;;;;;Button_5" />
+  <file name="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\codegentemp\Button_5_aliases.h" value="HEADER;;;;;Button_5" />
+  <file name="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\codegentemp\Button_5_PM.c" value="SOURCE_C;CortexM0;;;;Button_5" />
+  <file name="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\codegentemp\LED_6.c" value="SOURCE_C;CortexM0;;;;LED_6" />
+  <file name="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\codegentemp\LED_6.h" value="HEADER;;;;;LED_6" />
+  <file name="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\codegentemp\LED_6_aliases.h" value="HEADER;;;;;LED_6" />
+  <file name="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\codegentemp\LED_6_PM.c" value="SOURCE_C;CortexM0;;;;LED_6" />
+  <file name="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\codegentemp\Button_6.c" value="SOURCE_C;CortexM0;;;;Button_6" />
+  <file name="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\codegentemp\Button_6.h" value="HEADER;;;;;Button_6" />
+  <file name="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\codegentemp\Button_6_aliases.h" value="HEADER;;;;;Button_6" />
+  <file name="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\codegentemp\Button_6_PM.c" value="SOURCE_C;CortexM0;;;;Button_6" />
+  <file name="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\codegentemp\LED_7.c" value="SOURCE_C;CortexM0;;;;LED_7" />
+  <file name="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\codegentemp\LED_7.h" value="HEADER;;;;;LED_7" />
+  <file name="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\codegentemp\LED_7_aliases.h" value="HEADER;;;;;LED_7" />
+  <file name="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\codegentemp\LED_7_PM.c" value="SOURCE_C;CortexM0;;;;LED_7" />
+  <file name="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\codegentemp\Button_7.c" value="SOURCE_C;CortexM0;;;;Button_7" />
+  <file name="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\codegentemp\Button_7.h" value="HEADER;;;;;Button_7" />
+  <file name="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\codegentemp\Button_7_aliases.h" value="HEADER;;;;;Button_7" />
+  <file name="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\codegentemp\Button_7_PM.c" value="SOURCE_C;CortexM0;;;;Button_7" />
+  <file name="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\codegentemp\LED_8.c" value="SOURCE_C;CortexM0;;;;LED_8" />
+  <file name="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\codegentemp\LED_8.h" value="HEADER;;;;;LED_8" />
+  <file name="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\codegentemp\LED_8_aliases.h" value="HEADER;;;;;LED_8" />
+  <file name="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\codegentemp\LED_8_PM.c" value="SOURCE_C;CortexM0;;;;LED_8" />
+  <file name="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\codegentemp\Button_8.c" value="SOURCE_C;CortexM0;;;;Button_8" />
+  <file name="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\codegentemp\Button_8.h" value="HEADER;;;;;Button_8" />
+  <file name="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\codegentemp\Button_8_aliases.h" value="HEADER;;;;;Button_8" />
+  <file name="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\codegentemp\Button_8_PM.c" value="SOURCE_C;CortexM0;;;;Button_8" />
   <file name="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\codegentemp\LCD_Char_1_LCDPort.c" value="SOURCE_C;CortexM0;;;;LCD_Char_1_LCDPort" />
   <file name="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\codegentemp\LCD_Char_1_LCDPort.h" value="HEADER;;;;;LCD_Char_1_LCDPort" />
   <file name="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\codegentemp\LCD_Char_1_LCDPort_aliases.h" value="HEADER;;;;;LCD_Char_1_LCDPort" />

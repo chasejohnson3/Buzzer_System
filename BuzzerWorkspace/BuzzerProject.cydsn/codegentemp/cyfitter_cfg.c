@@ -272,6 +272,9 @@ void cyfitter_cfg(void)
 		/* UDB_PA_0 Starting address: CYDEV_UDB_PA0_BASE */
 		CY_SET_REG32((void *)(CYDEV_UDB_PA0_BASE), 0x00990000u);
 
+		/* UDB_PA_1 Starting address: CYDEV_UDB_PA1_BASE */
+		CY_SET_REG32((void *)(CYDEV_UDB_PA1_BASE), 0x00990000u);
+
 		/* UDB_PA_2 Starting address: CYDEV_UDB_PA2_BASE */
 		CY_SET_REG32((void *)(CYDEV_UDB_PA2_BASE), 0x00990000u);
 
@@ -284,8 +287,12 @@ void cyfitter_cfg(void)
 
 	/* Perform second pass device configuration. These items must be configured in specific order after the regular configuration is done. */
 	/* IOPINS0_0 Starting address: CYDEV_PRT0_BASE */
-	CY_SET_REG32((void *)(CYDEV_PRT0_BASE), 0x0000007Fu);
-	CY_SET_REG32((void *)(CYREG_PRT0_PC), 0x000B6596u);
+	CY_SET_REG32((void *)(CYDEV_PRT0_BASE), 0x000000FFu);
+	CY_SET_REG32((void *)(CYREG_PRT0_PC), 0x00596596u);
+
+	/* IOPINS0_1 Starting address: CYDEV_PRT1_BASE */
+	CY_SET_REG32((void *)(CYDEV_PRT1_BASE), 0x000000BFu);
+	CY_SET_REG32((void *)(CYREG_PRT1_PC), 0x00C16596u);
 
 	/* IOPINS0_2 Starting address: CYDEV_PRT2_BASE */
 	CY_SET_REG32((void *)(CYREG_PRT2_PC), 0x001B6DB6u);

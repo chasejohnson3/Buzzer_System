@@ -6,7 +6,7 @@
 
 #Build Date:         Feb 27 2017 11:02:10
 
-#File Generated:     Jan 13 2018 13:41:14
+#File Generated:     Jan 13 2018 16:18:33
 
 #Purpose:            
 
@@ -56,7 +56,7 @@ Design Statistics after Packing
 Device Utilization Summary after Packing
     Macrocells                  :	0/32
     UDBS                        :	0/4
-    IOs                         :	18/36
+    IOs                         :	26/36
 
 
 D2088: Phase 3, elapsed time : 0.0 (sec)

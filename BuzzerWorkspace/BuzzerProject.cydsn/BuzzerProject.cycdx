@@ -1,47 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
 <blockRegMap version="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://cypress.com/xsd/cyblockregmap cyblockregmap.xsd" xmlns="http://cypress.com/xsd/cyblockregmap">
-  <block name="GND_4" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="SW_4" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="Reset" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="GND_5" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="SW_5" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="Button_4" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="LED_4" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="R_4" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="PWR_4" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="LEDdoc_3" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="Buzzer_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="PWR_6" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="GND_6" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="LED_6" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="PWR_7" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="SW_6" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="LEDdoc_7" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="PWR_8" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="Button_6" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="R_8" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="LEDdoc_6" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   <block name="LEDdoc_5" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="PWR_6" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="Buzzer_2" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="R_6" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="Button_5" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="R_7" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   <block name="LCD_Char_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false">
     <block name="LCDPort" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   </block>
-  <block name="cy_lfclk" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="LED_5" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="SW_7" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="LEDdoc_9" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="PWR_10" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="Button_8" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="R_10" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   <block name="cy_boot" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="LEDdoc_4" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="R_5" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="PWR_5" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="R_6" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="Buzzer_2" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="GND_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="SW_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="LED_2" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="R_2" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="Button_2" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="Button_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="LED_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="R_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="PWR_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="LEDdoc" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="LEDdoc_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="LEDdoc_2" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="R_3" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="PWR_3" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="GND_3" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="SW_3" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="SW_2" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="cy_lfclk" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="SW_9" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="GND_9" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="LED_8" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="Button_7" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="R_9" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="GND_7" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="LED_7" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="SW_8" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="GND_8" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="LEDdoc_8" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="PWR_9" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   <block name="PWR_2" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="GND_2" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="SW_2" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="R_2" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="LEDdoc_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   <block name="Button_3" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="R_3" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="GND_2" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   <block name="LED_3" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="Button_2" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="R_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="LEDdoc" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="LED_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="Button_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="GND_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="LED_2" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="PWR_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="SW_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="LEDdoc_2" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="SW_5" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="GND_5" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="GND_4" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="Reset" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="LEDdoc_4" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="PWR_5" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="Buzzer_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="R_5" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="SW_4" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="GND_3" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="LED_4" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="PWR_3" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="SW_3" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="LEDdoc_3" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="PWR_4" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="Button_4" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="R_4" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
 </blockRegMap>
