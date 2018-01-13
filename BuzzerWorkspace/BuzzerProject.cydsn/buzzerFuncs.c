@@ -38,7 +38,7 @@ int readBuzzers(int testMode)
             Buzzer_1_Write(0);
             return 1;
         }
-        if (Button_2_Read() && !buttonOn)
+        if (!Button_2_Read() && !buttonOn)
         {
             LCD_Char_1_ClearDisplay();
             LCD_Char_1_PrintString("Player 2 Buzzed");
@@ -124,37 +124,55 @@ void testBuzzers()
     LCD_Char_1_ClearDisplay();
     LCD_Char_1_PrintString("Test Buzzer 1");
 //    readBuzzers();
-    while (readBuzzers(1) != 1)
+    int buttonPushed = readBuzzers(1);
+    while (buttonPushed != 1)
     {
-        // Wait for the user to press buzzer 1
-       
+        if (buttonPushed != 0 && buttonPushed != 1)
+        {
+            LCD_Char_1_ClearDisplay();
+            LCD_Char_1_PrintString("Test Buzzer 1");
+        }
+        buttonPushed = readBuzzers(1);
     }
     
     LCD_Char_1_ClearDisplay();
     LCD_Char_1_PrintString("Test Buzzer 2");
 //    readBuzzers();
-    while (readBuzzers(1) != 2)
+    buttonPushed = readBuzzers(1);
+    while (buttonPushed != 2)
     {
-        // Wait for the user to press buzzer 2
-      
+        if (buttonPushed != 0 && buttonPushed != 2)
+        {
+            LCD_Char_1_ClearDisplay();
+            LCD_Char_1_PrintString("Test Buzzer 2");
+        }
+        buttonPushed = readBuzzers(1);
     }
     
     LCD_Char_1_ClearDisplay();
     LCD_Char_1_PrintString("Test Buzzer 3");
-    
-    while (readBuzzers(1) != 3)
+    buttonPushed = readBuzzers(1);
+    while (buttonPushed != 3)
     {
-        // Wait for the user to press buzzer 3
-        
+        if (buttonPushed != 0 && buttonPushed != 3)
+        {
+            LCD_Char_1_ClearDisplay();
+            LCD_Char_1_PrintString("Test Buzzer 3");
+        }
+        buttonPushed = readBuzzers(1);
     }
     
     LCD_Char_1_ClearDisplay();
     LCD_Char_1_PrintString("Test Buzzer 4");
-//    readBuzzers();
-    while (readBuzzers(1) != 4)
+    buttonPushed = readBuzzers(1);
+    while (buttonPushed != 4)
     {
-        // Wait for the user to press buzzer 4
-        
+        if (buttonPushed != 0 && buttonPushed != 4)
+        {
+            LCD_Char_1_ClearDisplay();
+            LCD_Char_1_PrintString("Test Buzzer 4");
+        }
+        buttonPushed = readBuzzers(1);
     }
     
         

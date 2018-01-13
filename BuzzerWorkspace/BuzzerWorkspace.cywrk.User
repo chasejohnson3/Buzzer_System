@@ -13,68 +13,18 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="BuzzerWorkspace\BuzzerProject\Source Files\main.c">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="BuzzerWorkspace">
 <ExpandedNodeIds>
 <v>BuzzerWorkspace</v>
-<v>BuzzerWorkspace\BuzzerProject</v>
 <v>BuzzerWorkspace\BuzzerProject\TopDesign</v>
-<v>BuzzerWorkspace\BuzzerProject\BuzzerProject.cydwr</v>
-<v>BuzzerWorkspace\BuzzerProject\BuzzerProject.cydwr\Pins</v>
-<v>BuzzerWorkspace\BuzzerProject\BuzzerProject.cydwr\Analog</v>
-<v>BuzzerWorkspace\BuzzerProject\BuzzerProject.cydwr\Clocks</v>
-<v>BuzzerWorkspace\BuzzerProject\BuzzerProject.cydwr\Interrupts</v>
-<v>BuzzerWorkspace\BuzzerProject\BuzzerProject.cydwr\System</v>
-<v>BuzzerWorkspace\BuzzerProject\BuzzerProject.cydwr\Directives</v>
-<v>BuzzerWorkspace\BuzzerProject\BuzzerProject.cydwr\Flash Security</v>
-<v>BuzzerWorkspace\BuzzerProject\Header Files</v>
-<v>BuzzerWorkspace\BuzzerProject\Header Files\buzzerFuncs.h</v>
-<v>BuzzerWorkspace\BuzzerProject\Header Files\cyapicallbacks.h</v>
-<v>BuzzerWorkspace\BuzzerProject\Source Files</v>
-<v>BuzzerWorkspace\BuzzerProject\Source Files\buzzerFuncs.c</v>
-<v>BuzzerWorkspace\BuzzerProject\Source Files\main.c</v>
-<v>BuzzerWorkspace\BuzzerProject\Generated_Source</v>
-<v>BuzzerWorkspace\BuzzerProject\Generated_Source\PSoC4</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
-<v>BuzzerWorkspace\BuzzerProject\BuzzerProject.cydwr</v>
-<v>BuzzerWorkspace\BuzzerProject\BuzzerProject.cydwr\Pins</v>
-<v>BuzzerWorkspace\BuzzerProject\BuzzerProject.cydwr\Analog</v>
-<v>BuzzerWorkspace\BuzzerProject\BuzzerProject.cydwr\Clocks</v>
-<v>BuzzerWorkspace\BuzzerProject\BuzzerProject.cydwr\Interrupts</v>
-<v>BuzzerWorkspace\BuzzerProject\BuzzerProject.cydwr\System</v>
-<v>BuzzerWorkspace\BuzzerProject\BuzzerProject.cydwr\Directives</v>
-<v>BuzzerWorkspace\BuzzerProject\BuzzerProject.cydwr\Flash Security</v>
-<v>BuzzerWorkspace\BuzzerProject\Header Files</v>
-<v>BuzzerWorkspace\BuzzerProject\Header Files\buzzerFuncs.h</v>
-<v>BuzzerWorkspace\BuzzerProject\Header Files\cyapicallbacks.h</v>
-<v>BuzzerWorkspace\BuzzerProject\Source Files</v>
-<v>BuzzerWorkspace\BuzzerProject\Source Files\buzzerFuncs.c</v>
-<v>BuzzerWorkspace\BuzzerProject\Source Files\main.c</v>
-<v>BuzzerWorkspace\BuzzerProject\Generated_Source</v>
-<v>BuzzerWorkspace\BuzzerProject\Generated_Source\PSoC4</v>
-<v>BuzzerWorkspace\BuzzerProject\Generated_Source\PSoC4\Button_1</v>
-<v>BuzzerWorkspace\BuzzerProject\Generated_Source\PSoC4\Button_2</v>
-<v>BuzzerWorkspace\BuzzerProject\Generated_Source\PSoC4\Button_3</v>
-<v>BuzzerWorkspace\BuzzerProject\Generated_Source\PSoC4\Button_4</v>
-<v>BuzzerWorkspace\BuzzerProject\Generated_Source\PSoC4\Buzzer_1</v>
-<v>BuzzerWorkspace\BuzzerProject\Generated_Source\PSoC4\Buzzer_2</v>
-<v>BuzzerWorkspace\BuzzerProject\Generated_Source\PSoC4\cy_boot</v>
-<v>BuzzerWorkspace\BuzzerProject\Generated_Source\PSoC4\cy_lfclk</v>
-<v>BuzzerWorkspace\BuzzerProject\Generated_Source\PSoC4\LCD_Char_1</v>
-<v>BuzzerWorkspace\BuzzerProject\Generated_Source\PSoC4\LCD_Char_1_LCDPort</v>
-<v>BuzzerWorkspace\BuzzerProject\Generated_Source\PSoC4\LED_1</v>
-<v>BuzzerWorkspace\BuzzerProject\Generated_Source\PSoC4\LED_2</v>
-<v>BuzzerWorkspace\BuzzerProject\Generated_Source\PSoC4\LED_3</v>
-<v>BuzzerWorkspace\BuzzerProject\Generated_Source\PSoC4\LED_4</v>
-<v>BuzzerWorkspace\BuzzerProject\Generated_Source\PSoC4\Reset</v>
-<v>BuzzerWorkspace\BuzzerProject\Generated_Source\PSoC4\cycodeshareexport.ld</v>
-<v>BuzzerWorkspace\BuzzerProject\Generated_Source\PSoC4\cycodeshareimport.ld</v>
-<v>BuzzerWorkspace\BuzzerProject\Generated_Source\PSoC4\cycodeshareimport.scat</v>
-<v>BuzzerWorkspace\BuzzerProject\Generated_Source\PSoC4\cydevice_trm.h</v>
-<v>BuzzerWorkspace\BuzzerProject\Generated_Source\PSoC4\cydevicegnu_trm.inc</v>
+<v>BuzzerWorkspace</v>
+<v>BuzzerWorkspace\BuzzerProject</v>
+<v>BuzzerWorkspace\Input_Test</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="BuzzerWorkspace">
 <ExpandedNodeIds>
 <v>BuzzerWorkspace</v>
 <v>BuzzerWorkspace\BuzzerProject</v>
@@ -89,7 +39,7 @@
 <v>BuzzerWorkspace\Input_Test</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="BuzzerWorkspace">
 <ExpandedNodeIds>
 <v>BuzzerWorkspace</v>
 <v>BuzzerWorkspace\BuzzerProject</v>
@@ -144,41 +94,6 @@
 <VisibleNodeIds>
 <v>BuzzerWorkspace</v>
 <v>BuzzerWorkspace\BuzzerProject</v>
-<v>BuzzerWorkspace\BuzzerProject\CortexM0</v>
-<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541</v>
-<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug</v>
-<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files</v>
-<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\Button_1.lst</v>
-<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\Button_1_PM.lst</v>
-<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\Button_2.lst</v>
-<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\Button_2_PM.lst</v>
-<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\Button_3.lst</v>
-<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\Button_3_PM.lst</v>
-<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\Button_4.lst</v>
-<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\Button_4_PM.lst</v>
-<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\Buzzer_1.lst</v>
-<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\Buzzer_1_PM.lst</v>
-<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\Buzzer_2.lst</v>
-<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\Buzzer_2_PM.lst</v>
-<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\buzzerFuncs.lst</v>
-<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\Cm0Start.lst</v>
-<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
-<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
-<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
-<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLFClk.lst</v>
-<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
-<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
-<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
-<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
-<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\LCD_Char_1.lst</v>
-<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\LCD_Char_1_LCDPort.lst</v>
-<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\LCD_Char_1_LCDPort_PM.lst</v>
-<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\LCD_Char_1_PM.lst</v>
-<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_1.lst</v>
-<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_1_PM.lst</v>
-<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_2.lst</v>
-<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_2_PM.lst</v>
-<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_3.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -186,7 +101,7 @@
 <v>Datasheet</v>
 </TreeKeysV2>
 <TreeStatesV2>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="BuzzerWorkspace">
 <ExpandedNodeIds>
 <v>BuzzerWorkspace</v>
 <v>BuzzerWorkspace\BuzzerProject</v>
@@ -284,7 +199,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1173, 457" SelectedTabbedMdiWindow="5b955763-c14e-4ee6-a6db-8701fbf51968"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="dab16535-c177-435a-9d88-607be0f14563" /><DocumentWindow Key="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\TopDesign\TopDesign.cysch" Guid="6c6932f0-0387-4949-96e9-abdd2e204323" /><DocumentWindow Key="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\buzzerFuncs.c" Guid="cc0bb547-edf3-4984-b32d-98c7b1d1f9b6" /><DocumentWindow Key="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\main.c" Guid="5b955763-c14e-4ee6-a6db-8701fbf51968" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1173, 457" SelectedTabbedMdiWindow="5b955763-c14e-4ee6-a6db-8701fbf51968"><DocumentWindow Key="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\TopDesign\TopDesign.cysch" Guid="6c6932f0-0387-4949-96e9-abdd2e204323" /><DocumentWindow Key="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\buzzerFuncs.c" Guid="cc0bb547-edf3-4984-b32d-98c7b1d1f9b6" /><DocumentWindow Key="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\main.c" Guid="5b955763-c14e-4ee6-a6db-8701fbf51968" /><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="dab16535-c177-435a-9d88-607be0f14563" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
