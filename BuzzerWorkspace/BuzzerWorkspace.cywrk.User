@@ -13,14 +13,20 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="BuzzerWorkspace">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="BuzzerWorkspace\BuzzerProject\BuzzerProject.cydwr">
 <ExpandedNodeIds>
 <v>BuzzerWorkspace</v>
+<v>BuzzerWorkspace\BuzzerProject</v>
 <v>BuzzerWorkspace\BuzzerProject\TopDesign</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
 <v>BuzzerWorkspace</v>
 <v>BuzzerWorkspace\BuzzerProject</v>
+<v>BuzzerWorkspace\BuzzerProject\TopDesign</v>
+<v>BuzzerWorkspace\BuzzerProject\BuzzerProject.cydwr</v>
+<v>BuzzerWorkspace\BuzzerProject\Header Files</v>
+<v>BuzzerWorkspace\BuzzerProject\Source Files</v>
+<v>BuzzerWorkspace\BuzzerProject\Generated_Source</v>
 <v>BuzzerWorkspace\Input_Test</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>

@@ -1,5 +1,5 @@
 -- Project:   BuzzerProject
--- Generated: 01/06/2018 17:13:24
+-- Generated: 01/13/2018 13:41:14
 -- PSoC Creator  4.1
 
 ENTITY BuzzerProject IS
@@ -68,23 +68,23 @@ ARCHITECTURE __DEFAULT__ OF BuzzerProject IS
     ATTRIBUTE lib_model OF Button_1(0) : LABEL IS "iocell2";
     ATTRIBUTE Location OF Button_1(0) : LABEL IS "P4[1]";
     ATTRIBUTE lib_model OF LED_2(0) : LABEL IS "iocell3";
-    ATTRIBUTE Location OF LED_2(0) : LABEL IS "P4[3]";
+    ATTRIBUTE Location OF LED_2(0) : LABEL IS "P4[2]";
     ATTRIBUTE lib_model OF Button_2(0) : LABEL IS "iocell4";
-    ATTRIBUTE Location OF Button_2(0) : LABEL IS "P0[0]";
+    ATTRIBUTE Location OF Button_2(0) : LABEL IS "P4[3]";
     ATTRIBUTE lib_model OF LED_3(0) : LABEL IS "iocell5";
-    ATTRIBUTE Location OF LED_3(0) : LABEL IS "P0[2]";
+    ATTRIBUTE Location OF LED_3(0) : LABEL IS "P0[0]";
     ATTRIBUTE lib_model OF Button_3(0) : LABEL IS "iocell6";
-    ATTRIBUTE Location OF Button_3(0) : LABEL IS "P0[3]";
+    ATTRIBUTE Location OF Button_3(0) : LABEL IS "P0[1]";
     ATTRIBUTE lib_model OF LED_4(0) : LABEL IS "iocell7";
-    ATTRIBUTE Location OF LED_4(0) : LABEL IS "P0[5]";
+    ATTRIBUTE Location OF LED_4(0) : LABEL IS "P0[2]";
     ATTRIBUTE lib_model OF Button_4(0) : LABEL IS "iocell8";
-    ATTRIBUTE Location OF Button_4(0) : LABEL IS "P0[6]";
+    ATTRIBUTE Location OF Button_4(0) : LABEL IS "P0[3]";
     ATTRIBUTE lib_model OF Reset(0) : LABEL IS "iocell9";
-    ATTRIBUTE Location OF Reset(0) : LABEL IS "P1[0]";
+    ATTRIBUTE Location OF Reset(0) : LABEL IS "P0[6]";
     ATTRIBUTE lib_model OF Buzzer_1(0) : LABEL IS "iocell10";
-    ATTRIBUTE Location OF Buzzer_1(0) : LABEL IS "P1[2]";
+    ATTRIBUTE Location OF Buzzer_1(0) : LABEL IS "P0[4]";
     ATTRIBUTE lib_model OF Buzzer_2(0) : LABEL IS "iocell11";
-    ATTRIBUTE Location OF Buzzer_2(0) : LABEL IS "P1[4]";
+    ATTRIBUTE Location OF Buzzer_2(0) : LABEL IS "P0[5]";
     ATTRIBUTE lib_model OF \LCD_Char_1:LCDPort(0)\ : LABEL IS "iocell12";
     ATTRIBUTE Location OF \LCD_Char_1:LCDPort(0)\ : LABEL IS "P2[0]";
     ATTRIBUTE lib_model OF \LCD_Char_1:LCDPort(1)\ : LABEL IS "iocell13";
