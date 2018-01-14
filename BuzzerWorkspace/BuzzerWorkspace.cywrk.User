@@ -116,6 +116,41 @@
 <VisibleNodeIds>
 <v>BuzzerWorkspace</v>
 <v>BuzzerWorkspace\BuzzerProject</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\Button_1.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\Button_1_PM.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\Button_2.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\Button_2_PM.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\Button_3.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\Button_3_PM.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\Button_4.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\Button_4_PM.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\Button_5.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\Button_5_PM.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\Button_6.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\Button_6_PM.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\Button_7.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\Button_7_PM.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\Button_8.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\Button_8_PM.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\Buzzer_1.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\Buzzer_1_PM.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\Buzzer_2.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\Buzzer_2_PM.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\buzzerFuncs.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\Cm0Start.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLFClk.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>BuzzerWorkspace\BuzzerProject\CortexM0\ARM_GCC_541\Debug\Listing Files\LCD_Char_1.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>

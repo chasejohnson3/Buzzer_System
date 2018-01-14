@@ -120,7 +120,7 @@ int readBuzzers(int testMode)
             LCD_Char_1_Position(0u,5u);
             LCD_Char_1_PrintString("Team B");
             LCD_Char_1_Position(1u,0u);
-            LCD_Char_1_PrintString("Player 5 Buzzed");
+            LCD_Char_1_PrintString("Player 1 Buzzed");
             LED_5_Write(1);
             buttonOn = 1;
            for (int i=0; i<400; i++)
@@ -144,7 +144,7 @@ int readBuzzers(int testMode)
             LCD_Char_1_Position(0u,5u);
             LCD_Char_1_PrintString("Team B");
             LCD_Char_1_Position(1u,0u);
-            LCD_Char_1_PrintString("Player 6 Buzzed");
+            LCD_Char_1_PrintString("Player 2 Buzzed");
             LED_6_Write(1);
             buttonOn = 1;
             for (int i=0; i<400; i++)
@@ -168,7 +168,7 @@ int readBuzzers(int testMode)
             LCD_Char_1_Position(0u,5u);
             LCD_Char_1_PrintString("Team B");
             LCD_Char_1_Position(1u,0u);
-            LCD_Char_1_PrintString("Player 7 Buzzed");
+            LCD_Char_1_PrintString("Player 3 Buzzed");
             LED_7_Write(1);
             buttonOn = 1;
             for (int i=0; i<400; i++)
@@ -192,7 +192,7 @@ int readBuzzers(int testMode)
             LCD_Char_1_Position(0u,5u);
             LCD_Char_1_PrintString("Team B");
             LCD_Char_1_Position(1u,0u);
-            LCD_Char_1_PrintString("Player 8 Buzzed");
+            LCD_Char_1_PrintString("Player 4 Buzzed");
             LED_8_Write(1);
             buttonOn = 1;
             for (int i=0; i<400; i++)
