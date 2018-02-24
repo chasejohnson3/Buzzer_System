@@ -243,6 +243,7 @@
 <name v=".\BuzzerProject.cydsn\TopDesign\TopDesign.cysch" />
 <name v=".\BuzzerProject.cydsn\buzzerFuncs.c" />
 <name v=".\BuzzerProject.cydsn\main.c" />
+<name v=".\BuzzerProject.cydsn\BuzzerProject.cydwr" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
@@ -250,7 +251,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1173, 457" SelectedTabbedMdiWindow="5b955763-c14e-4ee6-a6db-8701fbf51968"><DocumentWindow Key="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\TopDesign\TopDesign.cysch" Guid="6c6932f0-0387-4949-96e9-abdd2e204323" /><DocumentWindow Key="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\buzzerFuncs.c" Guid="cc0bb547-edf3-4984-b32d-98c7b1d1f9b6" /><DocumentWindow Key="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\main.c" Guid="5b955763-c14e-4ee6-a6db-8701fbf51968" /><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="dab16535-c177-435a-9d88-607be0f14563" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1173, 438" SelectedTabbedMdiWindow="cc0bb547-edf3-4984-b32d-98c7b1d1f9b6"><DocumentWindow Key="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\TopDesign\TopDesign.cysch" Guid="6c6932f0-0387-4949-96e9-abdd2e204323" /><DocumentWindow Key="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\buzzerFuncs.c" Guid="cc0bb547-edf3-4984-b32d-98c7b1d1f9b6" /><DocumentWindow Key="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\main.c" Guid="5b955763-c14e-4ee6-a6db-8701fbf51968" /><DocumentWindow Key="C:\Users\User\Documents\Fun Projects\PSoC Creator\Buzzer_System\BuzzerWorkspace\BuzzerProject.cydsn\BuzzerProject.cydwr" Guid="47b8c1ee-b369-4b54-a1fe-c057c79e5868" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
