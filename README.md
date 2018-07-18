@@ -7,4 +7,4 @@ The Junior Bible Quiz JBQ Buzzer System is a standard science bowl buzzer system
 
 I created this project with the intention of creating a system that could be used in High School Science Bowl practices and to help me learn how to use Cypress's PSOC embedded boards.  The project will rely upon code written in the language C but also hardware connections set up in the PSOC Creator software.  I am using a CY8CKIT-049-42XX board from Cypress to run the programs, but this requires a programming board to load the program.  The programming board I am using is the CY8C5868LTI-LP039.
 
-![alt text](Buzzer_System/Buzzer Prototype.jpg)
+![alt text](https://github.com/chasejohnson3/Buzzer_System/blob/master/Buzzer%20Prototype.jpg)
